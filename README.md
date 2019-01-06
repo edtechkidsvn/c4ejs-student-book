@@ -4,7 +4,9 @@
 2. Biến
 3. Kiểu dữ liệu
 4. Vòng lặp
-5. Các câu lệnh điều kiện
+5. Câu lệnh điều kiện
 6. Mảng (Array)
 7. Đối tượng (Object)
 8. Hàm (Functions)
+9. DOM
+10. Networking
