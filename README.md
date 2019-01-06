@@ -8,5 +8,7 @@
 6. Mảng (Array)
 7. Đối tượng (Object)
 8. Hàm (Functions)
-9. DOM
-10. Networking
+9. HTML
+10. CSS
+11. DOM
+12. Networking
