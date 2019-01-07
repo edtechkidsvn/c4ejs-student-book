@@ -40,7 +40,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 
 -   Các keyword có trong javascript:  
 
-    ![Keywords](\images\variable\keywords.png)  
+    ![Keywords](/images/variable/keywords.png)  
 
 -   Ví dụ:
     -   Tên biến hợp lệ: dateOfBirth, temp99, $credit, _name,...
@@ -54,7 +54,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 
 -   Cú pháp khai báo biến trong javascript như sau: 
 
-    ![Variable Name](\images\variable\name.png)  
+    ![Variable Name](/images/variable/name.png)  
 -   Ở câu lệnh trên:
     -   "firstVariable" là tên biến, có thể đặt tùy ý, lưu ý là cần phải đặt tên biến có nghĩa và phải tuân thủ theo các quy tắc đặt tên. 
 
@@ -62,7 +62,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
         
 -   Một vài ví dụ về cách khai báo biến:  
 
-    ![Example](\images\variable\example.png)  
+    ![Example](/images/variable/example.png)  
 
 **2. Phạm vi hoạt động của biến (Variable Scope)**  
 Trước khi đến với cách sử dụng các loại **declarations of variables (var, let, const)**, chúng ta hãy đi tìm hiểu khái niệm **Scope**.  
@@ -77,26 +77,26 @@ Trong ví dụ trên, có thể hiểu nhà hàng Pectopah là **Scope** hay **p
 Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm được cách sử dụng của các loại **declarations of variables (var, let, const)** như sau:
 -   **var**: khai báo một biến, có phạm vi truy cập xuyên suốt function chứa nó. (Chi tiết về function sẽ được đề cập trong các chương sau, có thể tạm hiểu function là một loại scope mà khi ở bên ngoài function, không thể truy cập được những biến đã được khai báo bởi var ở bên trong function).
 
-    ![Var](\images\variable\var.png)  
+    ![Var](/images/variable/var.png)  
 
 -   **let**: khai báo một biến chỉ có thể truy cập được trong **Scope** bao quanh nó.
 
-    ![Let](\images\variable\let.png)  
+    ![Let](/images/variable/let.png)  
 
 -   **const**: dùng để khai báo một hằng số - là một giá trị không thay đổi được trong suốt quá trình chạy. Nếu cố gắng thay đổi giá trị của biến được khai báo bởi **const**, chương trình sẽ báo lỗi.
 
-    ![Const](\images\variable\const.png)  
+    ![Const](/images/variable/const.png)  
 
 
 ### III. CÁC KHÁI NIỆM KHÁC
 **1. Declaring variables và Evaluating variables**
 -   **Declaring variables**: Hiểu một cách đơn giản thì đây là những biến được khai báo và được gán một giá trị nào đó.
 
-    ![Declaring](\images\variable\declaring.png)  
+    ![Declaring](/images/variable/declaring.png)  
 
 -   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là <i>undefined</i>
 
-    ![Evaluating](\images\variable\evaluating.png)  
+    ![Evaluating](/images/variable/evaluating.png)  
 
 **2. Hoisting Variable**
 
@@ -104,10 +104,10 @@ Cùng quan sát 2 đoạn code dưới đây:
 
 -   Code 1  
 
-    ![Hoisting1](\images\variable\hoisting1.png)  
+    ![Hoisting1](/images/variable/hoisting1.png)  
 
 -   Code 2  
 
-    ![Hoisting2](\images\variable\hoisting2.png)
+    ![Hoisting2](/images/variable/hoisting2.png)
 
 Việc JavaScript tự động ngầm chuyển đoạn code 1 sang đoạn code 2 rồi mới thực thi lệnh được gọi là **Hoisting**. JavaScript sẽ đưa việc khai báo biến lên trên cùng, việc gán giá trị vẫn giữ nguyên. Điều này giải thích tại sao khi truy cập biến x ở ảnh 1 trước khi x được khai báo, nhưng chương trình lại không báo lỗi, mà chỉ trả ra giá trị mặc định của x.
