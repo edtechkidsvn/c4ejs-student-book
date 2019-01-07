@@ -10,7 +10,7 @@
 
 -   Số tiền mà Đức nhận được mỗi giờ có thể được biểu diễn bởi biểu thức sau:  
 
-    ![Example Variable](\images\variable\example-variable.png)
+    ![Example Variable](/images/variable/example-variable.png)
 
 -   Số tiền boa (tips) mỗi giờ có thể ít, có thể nhiều hoặc không có tùy thuộc vào nhiều yếu tố như: giờ đó đông hay vắng khách, thái độ của khách đang vui hay buồn,...Nói tóm lại, **tips có thể thay đổi (vary)**.
 
