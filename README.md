@@ -1,7 +1,7 @@
 ## C4E JS - Student book
 ### Mục lục
 1. [Giới thiệu khoá học](course_introduction.md)
-2. [Biến (Variables)](variables.md)
+2. [Biến (Variables)](/variables/variables.md)
 3. Kiểu dữ liệu (Data types)
 4. Vòng lặp (Loops)
 5. Câu lệnh điều kiện
