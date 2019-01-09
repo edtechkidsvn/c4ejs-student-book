@@ -71,25 +71,26 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
                 let x = 5;
                 let x = 10;
             </pre>
-            *[Đáp án]()*
+            *[Đáp án](result-1.md)*
             -   Code 2
             <pre>
                 let x = 5;
                 x = 10;
             </pre>
-            *[Đáp án]()*
+            *[Đáp án](result-2.md)*
 
     
     
-    2.  Những tên biến nào sau đây hợp lệ:  
+    2.  Những cách khai báo biến nào sau đây hợp lệ:  
         <pre>
             var break;
             let Break;
             let year-of-birth;
             const MYFAVORITE;
             const tech_kids;
+            const 4ever;
         </pre>
-        *[Đáp án]()*
+        *[Đáp án](result-3.md)*
 
 
 ### II. CÚ PHÁP KHAI BÁO BIẾN, PHẠM VI HOẠT ĐỘNG CỦA BIẾN (TYPE SYNTAX, VARIABLE SCOPE)
@@ -144,7 +145,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
             console.log(x);
         }
     </pre>  
-    *[Đáp án]()*
+    *[Đáp án](result-4.md)*
 
     -   Code 2
     <pre>
@@ -156,7 +157,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
             console.log(x);
         }
     </pre>  
-    *[Đáp án]()*
+    *[Đáp án](result-5.md)*
 
 
 ### III. CÁC KHÁI NIỆM KHÁC
