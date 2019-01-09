@@ -57,7 +57,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 
 -   Các keyword có trong javascript:  
 
-    ![Keywords](/images/variable/keywords.png)  
+    ![Keywords](../images/variable/keywords.png)  
 -   Tên của biến là duy nhất, có thể coi tên của biến là định danh (indentifiers).
 -   Ví dụ:
     -   Tên biến hợp lệ: dateOfBirth, temp99, $credit, _name,...
