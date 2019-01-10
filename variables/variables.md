@@ -157,7 +157,11 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
             console.log(x);
         }
     </pre>  
-    *[Đáp án](result-5.md)*
+    *[Đáp án](result-5.md)*  
+
+    *Ở cả 2 đoạn code đều có xuất hiện câu lệnh **if**, có thể tạm thời hiểu đơn giản đây là câu lệnh để kiểm tra điều kiện bên trong nó. Chi tiết về **if** sẽ được nhắc đến cụ thể trong các chương sau.*
+
+    *Ở đoạn code 1, câu lệnh **if** kiểm tra điều kiện x>10, nếu x lớn hơn 10 thì dòng code x=5 sẽ được thực hiện. Cách hiểu áp dụng tương tự với đoạn code 2*
 
 
 ### III. CÁC KHÁI NIỆM KHÁC
