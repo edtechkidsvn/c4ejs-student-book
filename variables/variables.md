@@ -58,6 +58,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 -   Các keyword có trong javascript:  
 
     ![Keywords](../images/variable/keywords.png)  
+    (*Nguồn: https://www.w3schools.com*)
 -   Tên của biến là duy nhất, có thể coi tên của biến là định danh (indentifiers).
 -   Ví dụ:
     -   Tên biến hợp lệ: dateOfBirth, temp99, $credit, _name,...
@@ -201,4 +202,4 @@ Cùng quan sát 2 đoạn code dưới đây:
 
 Việc JavaScript tự động ngầm chuyển đoạn code 1 sang đoạn code 2 rồi mới thực thi lệnh được gọi là **Hoisting**. JavaScript sẽ đưa việc khai báo biến lên trên cùng, việc gán giá trị vẫn giữ nguyên. Điều này giải thích tại sao khi truy cập biến x ở ảnh 1 trước khi x được khai báo, nhưng chương trình lại không báo lỗi, mà chỉ trả ra giá trị mặc định của x.  
 
-*Bài tiếp theo [Kiểu dữ liệu (Data types)](data_types.md)*
+*Bài tiếp theo [Kiểu dữ liệu (Data types)](../data_types/data_types.md)*
