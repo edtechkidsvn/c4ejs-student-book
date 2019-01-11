@@ -1,7 +1,7 @@
 <pre>
-    function() {
-        var y = 30;
-        if(y > 10) {
+    {
+        let y = 30;
+        {
             let x = 20;
         }
         console.log(x);

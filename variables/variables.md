@@ -6,13 +6,13 @@
 
 -   Đức là một nhân viên phục vụ bàn trong một nhà hàng tên là Pectopah, mức lương cố định của Đức là 100k/giờ.
 
--   Ngoài mức lương cố định trên, mỗi giờ Đức có thể được nhận thêm tiền boa (tips) từ khách hàng.
+-   Ngoài mức lương cố định trên, mỗi giờ Đức có thể được nhận thêm tiền boa (**tips**) từ khách hàng.
 
 -   Số tiền mà Đức nhận được mỗi giờ có thể được biểu diễn bởi biểu thức sau:  
 
     <pre>100+tips</pre>
 
--   Số tiền boa (tips) mỗi giờ có thể ít, có thể nhiều hoặc không có tùy thuộc vào nhiều yếu tố như: giờ đó đông hay vắng khách, thái độ của khách đang vui hay buồn,...Nói tóm lại, **tips có thể thay đổi (vary)**.
+-   Số tiền boa (**tips**) mỗi giờ có thể ít, có thể nhiều hoặc không có tùy thuộc vào nhiều yếu tố như: giờ đó đông hay vắng khách, thái độ của khách đang vui hay buồn,...Nói tóm lại, **tips có thể thay đổi (vary)**.
 
 -   Vậy tổng số tiền mà Đức nhận được mỗi giờ phụ thuộc vào số tiền tips mà Đức nhận được trong giờ đó.  
 
@@ -33,7 +33,9 @@ Trong ví dụ trên, **tips** được gọi là biến (variable).
 -   Ở câu lệnh trên:
     -   "firstVariable" là tên biến, có thể đặt tùy ý, lưu ý là cần phải đặt tên biến có nghĩa và phải tuân thủ theo các quy tắc đặt tên. 
 
-    -   "let" là từ khóa (keyword) của javascript, sử dụng để khai báo một biến. Có 3 cách để khai báo một biến trong javascript, tương ứng với 3 keywords **var**, **let** và **const**. Chúng được gọi là **declarations of variables**. Ý nghĩa và cách sử dụng 3 keywords này sẽ được đề cập cụ thể ở phần II.
+    -   "let" là từ khóa (keyword) của javascript, sử dụng để khai báo một biến. Có 3 cách để khai báo một biến trong javascript, tương ứng với 3 keywords **var**, **let** và **const**. Chúng được gọi là **declarations of variables**.
+
+    -   Trong các **declarations of variables**, chỉ có **let** là được sử dụng phổ biến hơn cả, số lượng các biến được khai báo bởi **let** chiếm tới 95% trong một dự án. Chính vì vậy trong chương này sẽ chỉ tập trung vào **let**. Ý nghĩa và cách sử dụng **let** sẽ được đề cập cụ thể ở phần II.
         
 -   Một vài ví dụ về cách khai báo biến:  
 
@@ -96,7 +98,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 
 ### II. CÚ PHÁP KHAI BÁO BIẾN, PHẠM VI HOẠT ĐỘNG CỦA BIẾN (TYPE SYNTAX, VARIABLE SCOPE)
 **1. Phạm vi hoạt động của biến (Variable Scope)**  
-Trước khi đến với cách sử dụng các loại **declarations of variables (var, let, const)**, chúng ta hãy đi tìm hiểu khái niệm **Scope**.  
+Trước khi đến với ý nghĩa và cách sử dụng keyword **let** để khai báo biến, chúng ta hãy đi tìm hiểu khái niệm **Scope**.  
 
 Liên hệ một chút với ví dụ ở đầu chương:
 -   Khi còn đang ở trong nhà hàng Pectopah, tất cả khách hàng đều có quyền yêu cầu Đức phục vụ họ, vì lúc này Đức đang đóng vai trò là nhân viên phục vụ bàn, Đức có trách nhiệm phải hoàn thành nhiệm vụ của một người phục vụ.
@@ -105,64 +107,32 @@ Liên hệ một chút với ví dụ ở đầu chương:
 
 Trong ví dụ trên, có thể hiểu nhà hàng Pectopah là **Scope** hay **phạm vi hoạt động** của Đức - trong vai trò nhân viên phục vụ. Ra khỏi **Scope**, Đức không còn hoạt động như một nhân viên phục vụ bàn nữa.
 
-Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm được cách sử dụng của các loại **declarations of variables (var, let, const)** như sau:
--   **var**: khai báo một biến, có phạm vi truy cập xuyên suốt function chứa nó. (Chi tiết về function sẽ được đề cập trong các chương sau, có thể tạm hiểu function là một loại scope mà khi ở bên ngoài function, không thể truy cập được những biến đã được khai báo bởi var ở bên trong function).
+Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm được ý nghĩa và cách sử dụng của keywords **let** như sau:
+-   Keyword **let** khai báo một biến chỉ có thể truy cập được trong **Scope** bao quanh nó.
+
+    *Ví dụ*
 
     <pre>
-        function myFunction() {
-            if (true) {
-                var x = 5;
-            };
-            console.log(x); // x is 5
+        {
+            let x = 5;
         };
         console.log(x); //x is not defined
     </pre>
 
--   **let**: khai báo một biến chỉ có thể truy cập được trong **Scope** bao quanh nó.
-
-    <pre>
-        if (true) {
-            let y = 5;
-        };
-        console.log(y); //x is not defined
-    </pre>
-
--   **const**: dùng để khai báo một hằng số - là một giá trị không thay đổi được trong suốt quá trình chạy. Nếu cố gắng thay đổi giá trị của biến được khai báo bởi **const**, chương trình sẽ báo lỗi.
-
-    <pre>
-        const theBestSchool = "TechKids";
-        theBestSchool = "another school"; // will result is an error;
-    </pre>
+    Trong ví dụ trên, chương trình sẽ báo lỗi "x is not defined", vì biến x được khai báo bởi **let** nằm bên trong cặp {} (**Scope**), trong khi câu lệnh console.log(x) lại nằm bên ngoài, vì vậy nên không thể in được x ra màn hình.
 
     <i>**Bài tập**</i>  
-    Giá trị của x là bao nhiêu sau khi chạy những đoạn code dưới đây?
-    -   Code 1
+    Giá trị của x là bao nhiêu sau khi chạy đoạn code dưới đây?
     <pre>
-        function() {
-            var x = 30;
-            if(x > 10) {
-                x = 5;
-            }
-            console.log(x);
-        }
-    </pre>  
-    *[Đáp án](result-4.md)*
-
-    -   Code 2
-    <pre>
-        function() {
-            var y = 30;
-            if(y > 10) {
+        {
+            let y = 30;
+            {
                 let x = 20;
             }
             console.log(x);
         }
     </pre>  
     *[Đáp án](result-5.md)*  
-
-    *Ở cả 2 đoạn code đều có xuất hiện câu lệnh **if**, có thể tạm thời hiểu đơn giản đây là câu lệnh để kiểm tra điều kiện bên trong nó. Chi tiết về **if** sẽ được nhắc đến cụ thể trong các chương sau.*
-
-    *Ở đoạn code 1, câu lệnh **if** kiểm tra điều kiện x>10, nếu x lớn hơn 10 thì dòng code x=5 sẽ được thực hiện. Cách hiểu áp dụng tương tự với đoạn code 2*
 
 
 ### III. CÁC KHÁI NIỆM KHÁC
