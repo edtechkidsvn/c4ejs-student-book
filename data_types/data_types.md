@@ -2,15 +2,27 @@
 
 ### I. KIỂU DỮ LIỆU LÀ GÌ? (DATA TYPES)
 **1. Ví dụ thực tế**
--   Hãy tưởng tượng một ngày đẹp trời bạn đến gặp bác sĩ để khám, bạn mong đợi sẽ mang về nhà một đơn thuốc phù hợp về căn bệnh mà mình đang mắc phải.
+<!-- -   Hãy tưởng tượng một ngày đẹp trời bạn đến gặp bác sĩ để khám, bạn mong đợi sẽ mang về nhà một đơn thuốc phù hợp về căn bệnh mà mình đang mắc phải.
 
 -   Trước hết, bác sĩ sẽ phải xác định căn bệnh của bạn để kê những loại thuốc thích hợp. Ngoài ra bác sĩ cũng sẽ hỏi bạn thêm về những kiểu dị ứng mà bạn có thể mắc phải, từ đó chỉnh sửa đơn thuốc phù hợp hơn.
 
 -   Trong ví dụ trên, có thể coi cơ thể của bạn là **dữ liệu**(data), căn bệnh bạn đang mắc phải là **kiểu dữ liệu**(data types), và bác sĩ chính là lập trình viên.
 
--   Khi đã xác định được loại bệnh của bạn, bác sĩ mới có thể kê đơn thuốc. Nếu như không biết được bạn đang mắc phải bệnh gì, sẽ rất khó để bác sĩ có thể kê cho bạn những loại thuốc phù hợp. Nói cách khác, "kê đơn thuốc phù hợp" chính là **tìm ra giải pháp giải quyết vấn đề**, nhờ xác định được loại bệnh của bạn mà bác sĩ có thể làm điều này một cách dễ dàng.
+-   Khi đã xác định được loại bệnh của bạn, bác sĩ mới có thể kê đơn thuốc. Nếu như không biết được bạn đang mắc phải bệnh gì, sẽ rất khó để bác sĩ có thể kê cho bạn những loại thuốc phù hợp. Nói cách khác, "kê đơn thuốc phù hợp" chính là **tìm ra giải pháp giải quyết vấn đề**, nhờ xác định được loại bệnh của bạn mà bác sĩ có thể làm điều này một cách dễ dàng. -->
 
-    *Nguồn:https://www.quora.com*
+-   Hãy tưởng tượng một ngày đẹp trời bạn nổi hứng muốn làm bánh gato tặng người yêu. Điều quan trọng nhất bạn phải có trước khi bắt tay vào làm bánh, đó chính là nguyên liệu.
+
+-   Giả sử trong nhà bếp của bạn đã có đầy đủ tất cả các loại nguyên liệu để có thể tạo ra chiếc bánh, nhưng vấn đề bây giờ của bạn là không biết phải chọn cụ thể thứ nguyên liệu nào trong số một vài nguyên liệu tương đương nhau. Chúng ta sẽ lấy một vài ví dụ về những nguyên liệu cơ bản nhất, luôn xuất hiện trong bất kỳ chiếc bánh gato nào:
+
+    -   Trong tất cả các loại **bột**, bạn phải chọn bột mỳ, chứ không thể là bột chiên giòn hay một loại bột nào khác.
+
+    -   Giữa muối và nước mắm, gọi chung là **gia vị mặn**, bạn phải chọn muối.
+
+    -   Bạn không thể lấy dầu hào để thay thế cho dầu ăn được, mặc dù chúng đều là **dầu**.
+
+-   Trong ví dụ trên, có thể coi **bột**, **gia vị mặn** hay **dầu** là **Dữ Liệu**, **bột mỳ**, **muối** và **dầu ăn** là **Kiểu Dữ Liệu (Data Types)**. Khi đã có trong tay đủ các nguyên liệu cần thiết, bạn đã có thể bắt tay vào làm bánh. Nói cách khác, khi đã xác định được **Kiểu** của **Dữ Liệu**, bạn hoàn toàn có thể yên tâm để bắt đầu làm việc với chúng.
+
+    <!-- *Nguồn:https://www.quora.com* -->
 
 **2. Khái niệm**  
 
@@ -117,16 +129,11 @@ Trong chương này sẽ chỉ đề cập đến một số kiểu dữ liệu 
         ![Data-Type-Arithmetic](../images/data_types/data_types_arithmetic.png)  
         (*Nguồn: https://www.vietjack.com*)
 
-    -   **Toán tử gán (Assignment Operators)**  
-        Bảng dưới đây sẽ mô tả và giải thích rõ ràng ý nghĩa của các loại toán tử gán  
-
-        ![Data-Type-Assignment](../images/data_types/data_types_assign.png)  
-        (*Nguồn: https://www.vietjack.com*)
 
     -   **Toán tử so sánh (Comparison Operators)**  
         Giả sử có A = 10, B = 20, bảng dưới đây sẽ mô tả và giải thích rõ ràng ý nghĩa của các loại toán tử so sánh
 
-        ![Data-Type-Comparison](../images/data_types/data_types_comparison.png)  
+        ![Data-Type-Comparison](../images/data_types/data_types_comparison_2.png)  
         (*Nguồn: https://www.vietjack.com*)
 
     -   **Toán tử Logic (Logical Operators)**
