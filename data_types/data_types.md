@@ -12,17 +12,20 @@
 
 -   Hãy tưởng tượng một ngày đẹp trời bạn nổi hứng muốn làm bánh gato tặng người yêu. Điều quan trọng nhất bạn phải có trước khi bắt tay vào làm bánh, đó chính là nguyên liệu.
 
--   Giả sử trong nhà bếp của bạn đã có đầy đủ tất cả các loại nguyên liệu để có thể tạo ra chiếc bánh, nhưng vấn đề bây giờ của bạn là không biết phải chọn cụ thể thứ nguyên liệu nào trong số một vài nguyên liệu tương đương nhau. Chúng ta sẽ lấy một vài ví dụ về những nguyên liệu cơ bản nhất, luôn xuất hiện trong bất kỳ chiếc bánh gato nào:
+-   Để làm được một chiếc bánh gato hoàn chỉnh thì sẽ phải cần rất nhiều nguyên liệu, trong ví dụ này sẽ chỉ nói đến 2 loại nguyên liệu cơ bản nhất xuất hiện trong tất cả các loại bánh gato. Đó là **bơ** và **trứng**. Vấn đề bây giờ của bạn là không biết dùng chúng như thế nào và có tác dụng gì. Sau một hồi tìm hiểu, bạn nhận ra **bơ** có tác dụng làm cho bánh thơm hơn, còn **trứng** sẽ khiến chiếc bánh tơi xốp hơn.
+
+-   Trong ví dụ trên, có thể coi **bơ** và **trứng** là 2 **Kiểu Dữ Liệu** khác nhau, dùng với 2 mục đích khác nhau, mặc dù cùng góp sức tạo nên chiếc bánh.
+<!-- -   Giả sử trong nhà bếp của bạn đã có đầy đủ tất cả các loại nguyên liệu để có thể tạo ra chiếc bánh, nhưng vấn đề bây giờ của bạn là không biết phải chọn cụ thể thứ nguyên liệu nào trong số một vài nguyên liệu tương đương nhau. Chúng ta sẽ lấy một vài ví dụ về những nguyên liệu cơ bản nhất, luôn xuất hiện trong bất kỳ chiếc bánh gato nào:
 
     -   Trong tất cả các loại **bột**, bạn phải chọn bột mỳ, chứ không thể là bột chiên giòn hay một loại bột nào khác.
 
     -   Giữa muối và nước mắm, gọi chung là **gia vị mặn**, bạn phải chọn muối.
 
-    -   Bạn không thể lấy dầu hào để thay thế cho dầu ăn được, mặc dù chúng đều là **dầu**.
+    -   Bạn không thể lấy dầu hào để thay thế cho dầu ăn được, mặc dù chúng đều là **dầu**. -->
 
--   Trong ví dụ trên, có thể coi **bột**, **gia vị mặn** hay **dầu** là **Dữ Liệu**, **bột mỳ**, **muối** và **dầu ăn** là **Kiểu Dữ Liệu (Data Types)**. Khi đã có trong tay đủ các nguyên liệu cần thiết, bạn đã có thể bắt tay vào làm bánh. Nói cách khác, khi đã xác định được **Kiểu** của **Dữ Liệu**, bạn hoàn toàn có thể yên tâm để bắt đầu làm việc với chúng.
+<!-- -   Trong ví dụ trên, có thể coi **bột**, **gia vị mặn** hay **dầu** là **Dữ Liệu**, **bột mỳ**, **muối** và **dầu ăn** là **Kiểu Dữ Liệu (Data Types)**. Khi đã có trong tay đủ các nguyên liệu cần thiết, bạn đã có thể bắt tay vào làm bánh. Nói cách khác, khi đã xác định được **Kiểu** của **Dữ Liệu**, bạn hoàn toàn có thể yên tâm để bắt đầu làm việc với chúng.
 
-    <!-- *Nguồn:https://www.quora.com* -->
+    *Nguồn:https://www.quora.com* -->
 
 **2. Khái niệm**  
 
@@ -121,7 +124,7 @@ Trong chương này sẽ chỉ đề cập đến một số kiểu dữ liệu 
     </pre>
     *[Đáp án](result-4.md)*
 
--   Nhắc đến **Number** thì sẽ không thể thiếu các loại toán tử (operators). Trong JavaScript chia làm rất nhiều các loại toán tử khác nhau, trong chương này sẽ chỉ đề cập đến một số loại toán tử hay sử dụng, các loại toán tử còn lại **rất hiếm** khi phải dùng đến. Các loại toán tử trong chương này bao gồm:
+-   Nhắc đến **Number** thì sẽ không thể thiếu các loại toán tử (operators). Trong JavaScript chia làm rất nhiều các loại toán tử khác nhau, trong chương này sẽ chỉ đề cập đến một số loại toán tử sử dụng thường xuyên nhất. Các loại toán tử trong chương này bao gồm:
 
     -   **Toán tử số học (Arithmetic Operators)**:  
         Giả sử có A = 10, B = 20, bảng dưới đây sẽ mô tả và giải thích rõ ràng ý nghĩa của các loại toán tử số học
