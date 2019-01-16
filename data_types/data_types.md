@@ -133,7 +133,7 @@ Trong chương này sẽ chỉ đề cập đến một số kiểu dữ liệu 
     -   **Toán tử so sánh (Comparison Operators)**  
         Giả sử có A = 10, B = 20, bảng dưới đây sẽ mô tả và giải thích rõ ràng ý nghĩa của các loại toán tử so sánh
 
-        ![Data-Type-Comparison](../images/data_types/data_types_comparison_2.png)  
+        ![Data-Type-Comparison](../images/data_types/data_types_comparison_3.png)  
         (*Nguồn: https://www.vietjack.com*)
 
     -   **Toán tử Logic (Logical Operators)**
