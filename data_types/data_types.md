@@ -4,10 +4,6 @@
 **1. Ví dụ thực tế**
 <!-- -   Hãy tưởng tượng một ngày đẹp trời bạn đến gặp bác sĩ để khám, bạn mong đợi sẽ mang về nhà một đơn thuốc phù hợp về căn bệnh mà mình đang mắc phải.
 
--   Trước hết, bác sĩ sẽ phải xác định căn bệnh của bạn để kê những loại thuốc thích hợp. Ngoài ra bác sĩ cũng sẽ hỏi bạn thêm về những kiểu dị ứng mà bạn có thể mắc phải, từ đó chỉnh sửa đơn thuốc phù hợp hơn.
-
--   Trong ví dụ trên, có thể coi cơ thể của bạn là **dữ liệu**(data), căn bệnh bạn đang mắc phải là **kiểu dữ liệu**(data types), và bác sĩ chính là lập trình viên.
-
 -   Khi đã xác định được loại bệnh của bạn, bác sĩ mới có thể kê đơn thuốc. Nếu như không biết được bạn đang mắc phải bệnh gì, sẽ rất khó để bác sĩ có thể kê cho bạn những loại thuốc phù hợp. Nói cách khác, "kê đơn thuốc phù hợp" chính là **tìm ra giải pháp giải quyết vấn đề**, nhờ xác định được loại bệnh của bạn mà bác sĩ có thể làm điều này một cách dễ dàng. -->
 
 -   Hãy tưởng tượng một ngày đẹp trời bạn nổi hứng muốn làm bánh gato tặng người yêu. Điều quan trọng nhất bạn phải có trước khi bắt tay vào làm bánh, đó chính là nguyên liệu.
