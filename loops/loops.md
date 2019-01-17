@@ -97,4 +97,4 @@
 
 2, Viết chương trình in ra màn hình các số từ 100 đến 1
 
-*Bài tiếp theo [Vòng lặp (Loops)](../loops/loops.md)*
+*Bài tiếp theo [Mảng (Array)](../array/array.md)*
