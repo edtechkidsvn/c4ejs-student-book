@@ -3,7 +3,7 @@
 1. [Giới thiệu khoá học](course_introduction.md)
 2. [Biến (Variables)](/variables/variables.md)
 3. [Kiểu dữ liệu (Data types)](/data_types/data_types.md)
-4. Vòng lặp (Loops)
+4. [Vòng lặp (Loops)](/loops/loops.md)
 5. Câu lệnh điều kiện
 6. Mảng (Array)
 7. Đối tượng (Object)

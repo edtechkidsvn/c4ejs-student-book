@@ -83,7 +83,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
             *[Đáp án](result-2.md)*
 
     
-    
+
     2.  Những cách khai báo biến nào sau đây hợp lệ:  
         <pre>
             var break;
@@ -96,7 +96,7 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
         *[Đáp án](result-3.md)*
 
 
-### II. CÚ PHÁP KHAI BÁO BIẾN, PHẠM VI HOẠT ĐỘNG CỦA BIẾN (TYPE SYNTAX, VARIABLE SCOPE)
+### II. CHI TIẾT KEYWORD LET, PHẠM VI HOẠT ĐỘNG CỦA BIẾN (TYPE SYNTAX, VARIABLE SCOPE)
 **1. Phạm vi hoạt động của biến (Variable Scope)**  
 Trước khi đến với ý nghĩa và cách sử dụng keyword **let** để khai báo biến, chúng ta hãy đi tìm hiểu khái niệm **Scope**.  
 

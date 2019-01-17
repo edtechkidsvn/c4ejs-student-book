@@ -159,7 +159,36 @@ Trong chương này sẽ chỉ đề cập đến một số kiểu dữ liệu 
         </pre>  
         (*Nguồn: https://www.w3schools.com*)
         
-        Trong ví dụ trên bạn sẽ thấy một vài kiểu dữ liệu mới lạ, nhưng **đừng lo lắng**, những kiểu dữ liệu này sẽ được đề cập tới ở các chương sau.  
+        Trong ví dụ trên bạn sẽ thấy một vài kiểu dữ liệu mới lạ, nhưng **đừng lo lắng**, những kiểu dữ liệu này sẽ được đề cập tới ở các chương sau.
+
+**3. Bài tập**  
+
+-   Trước khi làm bài tập, bạn hãy làm quen với câu lệnh input (nhận dữ liệu nhập vào từ bàn phím) cú pháp như sau:
+
+    <pre>
+        promt("Your message")
+    </pre>
+
+-   Trong câu lệnh trên, phần **string** ở bên trong cặp ngoặc tròn là yêu cầu mà bạn muốn người dùng nhập vào. Ví dụ:
+
+    <pre>
+        let school = prompt("What's your school?")
+        console.log(school)
+    </pre>  
+
+    ![Data-Type-Exercise](../images/data_types/data_types_ex1.png)  
+
+-   Khi chạy code, sẽ xuất hiện một cửa sổ để bạn nhập dữ liệu từ bàn phím và ấn OK. Sau đó những gì bạn nhập sẽ được lưu vào biến **school**, bạn có thể in nó ra màn hình để dễ nhìn.
+
+**Bài tập 1**  
+
+-   Viết chương trình cho phép người dùng nhập vào tên, tuổi. Sau đó in ra màn hình đoạn text theo cú pháp "<Tên> is <Tuổi> years old!"
+
+-   Ví dụ người dùng nhập vào **Quân** và **22**, màn hình sẽ in ra **"Quân is 22 years old!"**
+
+**Bài tập 2**  
+
+-   Cũng chương trình như ở bài tập 1, nhưng lần này hãy cho phép người dùng nhập vào tên và tuổi của 5 người khác nhau. Sau đó in ra màn hình thông tin của 5 người đó theo đúng cú pháp như bài tập 1.
 
 *Bài tiếp theo [Vòng lặp (Loops)](../loops/loops.md)*
     
