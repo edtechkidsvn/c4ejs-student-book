@@ -22,12 +22,12 @@
 **1. Cú pháp cơ bản**  
 
 <pre>
-    for (statement1; statement2; statement3) {
+    for (bienKhoiTao; dieuKienLap; buocNhay) {
         // phần code của bạn 
     }
 </pre>
 
--   **statement1**, **statement2** và **statement3** sẽ là những câu lệnh phù hợp, tương ứng với từng trường hợp cụ thể, được ngăn cách nhau bởi dấu chấm phẩy ( ; )
+-   **bienKhoiTao**, **dieuKienLap** và **buocNhay** sẽ là những câu lệnh phù hợp, tương ứng với từng trường hợp cụ thể, được ngăn cách nhau bởi dấu chấm phẩy ( ; )
 
 -   Phía bên trong cặp ngoặc nhọn ( { } ) sẽ là phần code bạn muốn chạy đi chạy lại.
 
@@ -74,11 +74,11 @@
     </pre>
 
 -   Như vậy là phía trước "Welcome to C4EJS Course!" sẽ xuất hiện các số lần lượt từ 0 đến 49. Từ ví dụ cũng như kết quả, có thể hiểu các thành phần của **For Loop** như sau:  
-    -   **statement1** là nơi khai báo một biến với tên biến và value tùy ý.
+    -   **bienKhoiTao** là nơi khai báo một biến với tên biến và value tùy ý.
 
-    -   **statement2** là điều kiện mà vòng lặp được phép chạy.
+    -   **dieuKienLap** là điều kiện mà vòng lặp được phép chạy.
 
-    -   **statement3** là bước nhảy của biến sau mỗi lần thực hiện đoạn code bên trong vòng lặp.
+    -   **buocNhay** là bước nhảy của biến sau mỗi lần thực hiện đoạn code bên trong vòng lặp.
 
     -   ***Lưu ý***: Vị trí của 3 statement là cố định, không thể đảo vị trí cho nhau
 
@@ -92,9 +92,14 @@
 
     ***JS***: Ok anh.  
 
-<i>**Bài tập**</i>  
-1, Viết chương trình in ra màn hình các số từ 0 đến 100  
+***Lưu ý:*** cách viết **i++** tương đương với **i = i + 1** hoặc **i+=1**, nghĩa là **i** tăng lên 1 đơn vị. \tương tự như vậy, **i = i + 3** hoặc **i+=3**, nghĩa là **i** tăng lên 3 đơn vị
 
-2, Viết chương trình in ra màn hình các số từ 100 đến 1
+<i>**Bài tập**</i>  
+
+1. Viết chương trình in ra màn hình các số từ 0 đến 100  
+
+2. Viết chương trình in ra màn hình các số từ 100 đến 1
+
+3. Viết chương trình in ra màn hình các số chia hết cho 5 trong khoảng từ 5 đến 70
 
 *Bài tiếp theo [Mảng (Array)](../array/array.md)*
