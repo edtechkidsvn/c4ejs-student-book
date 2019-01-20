@@ -4,4 +4,4 @@
     console.log(x+y);
 </pre>
 
-Chương trình sẽ báo lỗi, vì x là **Number**, còn y là **String**, không thể sử dụng phép cộng giữa **Number** và **String**.
+Chương trình sẽ tự động convert x thành **String** sau đó thực hiện phép nối **String** với y, tạo ra kết quả là 510. Mặc dù nhìn bằng mắt thường thì 510 là số, nhưng thực chất đây là một **String**.

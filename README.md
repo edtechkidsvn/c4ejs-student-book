@@ -4,9 +4,9 @@
 2. [Biến (Variables)](/variables/variables.md)
 3. [Kiểu dữ liệu (Data types)](/data_types/data_types.md)
 4. [Vòng lặp (Loops)](/loops/loops.md)
-5. Mảng (Array)
-6. Câu lệnh điều kiện
-7. Đối tượng (Object)
+5. [Mảng (Array)](/array/array.md)
+6. Đối tượng (Object)
+7. Câu lệnh điều kiện
 8. Hàm (Functions)
 9. HTML
 10. CSS
