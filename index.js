@@ -1,5 +1,9 @@
-for (let i = 0; i < 50; i = i + 1) {
-    console.log(i, "Welcome to C4EJS Course!")
+let age = prompt("Your age? ")
+        
+if (age < 10) {
+    console.log("You are Baby!");
+} else if (age < 18) {
+    console.log("You are Teenager!");
+} else {
+    console.log("You are Adult");
 }
-
-console.log(i);

@@ -76,6 +76,16 @@
 
 **1. Create**  
 
+-   Đây là thao tác **thêm mới phần tử** vào **Array**, trong thực tế thì mỗi khi có một phần tử được thêm mới vào **Array**, thì hầu hết trong mọi tình huống nó sẽ được thêm vào cuối **Array**. Vì vậy trong bài này sẽ chỉ nhắc đến cách thêm phần tử vào cuối **Array**. Cú pháp như sau:  
+
+    <pre>
+        let monAn = ["com", "thit", "ca", "trung", "rau"];
+        monAn.push("bun dau");
+        console.log(monAn); // ["com", "thit", "ca", "trung", "rau", "bun dau"]
+    </pre>
+
+-   Trong ví dụ trên, sau
+
 **2. Read**  
 
 **3. Update**  
