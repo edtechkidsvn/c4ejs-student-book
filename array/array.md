@@ -164,6 +164,7 @@
     <pre>
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         monAn[0] = "chao";
+        console.log(monAn) // chao thit ca trung rau
     </pre>
 -   Chỉ đơn giản là truy cập vào phần tử muốn thay đổi, sau đó gán cho nó một giá trị mới, như cách bạn đặt giá trị cho biến.
 
