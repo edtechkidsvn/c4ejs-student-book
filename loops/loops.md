@@ -88,7 +88,7 @@
 
     ***JS***: Có cách nào để em biết được em phải lặp đến bao giờ không anh?
 
-    ***Me***: Mày hãy chuẩn bị một **biến i**, mang **giá trị 0** (let i = 0). Sau mỗi lần in ra "Welcome to C4EJS Course!" thì mày hãy **tăng i lên 1 đơn vị** (i++). Chừng nào mà **i** vẫn còn nhỏ hơn 50 (i<50>) thì mày vẫn còn được phép tăng.
+    ***Me***: Mày hãy chuẩn bị một **biến i**, mang **giá trị 0** (let i = 0). Sau mỗi lần in ra "Welcome to C4EJS Course!" thì mày hãy **tăng i lên 1 đơn vị** (i++). Chừng nào mà **i** vẫn còn nhỏ hơn 50 (i<50) thì mày vẫn còn được phép tăng.
 
     ***JS***: Ok anh.  
 
@@ -102,4 +102,4 @@
 
 3. Viết chương trình in ra màn hình các số chia hết cho 5 trong khoảng từ 5 đến 70
 
-*Bài tiếp theo [Mảng (Array)](../array/array.md)*
+*Bài tiếp theo [Câu lệnh rẽ nhánh (Branching)](../branching/branching.md)*

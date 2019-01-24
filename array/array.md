@@ -84,11 +84,139 @@
         console.log(monAn); // ["com", "thit", "ca", "trung", "rau", "bun dau"]
     </pre>
 
--   Trong ví dụ trên, sau
+-   Trong ví dụ trên, sau khi thực hiện câu lệnh **monAn.push("bun dau")**, **array monAn** sẽ có thêm 1 phần tử **"bun dau"** nằm ở cuối cùng.
+
+
+***Bài tập***:  
+-   In ra màn hình 1 Array chứa tên của 3 cầu thủ bóng đá: Ronaldo, Messi, Neymar. 
+
+-   Hỏi người dùng có muốn nhập thêm cầu thủ không bằng cách nhập "Y" hoặc "N".
+
+-   Nếu người dùng nhập "Y", hỏi tiếp tên cầu thủ muốn nhập, sau đó thêm cầu thủ mới vào Array ban đầu và in Array mới ra màn hình
+
+-   Nếu người dùng nhập "N", in ra màn hình câu "Good Bye!"
 
 **2. Read**  
 
+-   Đây là thao tác **Đọc**, hay còn gọi là **Truy cập**.
+
+-   Một phần tử trong **Array** sẽ được truy cập thông qua **chỉ số (index)**.
+-   Các phần tử trong **Array** được đánh số thứ tự từ trái qua phải, **bắt đầu từ 0**. Số thứ tự của 1 phần tử được gọi là **chỉ số (index)** của phần tử.
+-   Ví dụ:
+    <pre>
+        let monAn = ["com", "thit", "ca", "trung", "rau"];
+    </pre>
+    -   "com" mang **index** là 0.
+    -   "thit" mang **index** là 1.  
+    -   "ca" mang **index** là 2.  
+    -   "trung" mang **index** là 3.
+    -   "rau" mang **index** là 4.
+
+-   **Truy cập một phần tử:**  
+    -   Cú pháp **truy cập** một phần tử thông qua **index tương ứng** như sau:  
+    <pre>
+        let monAnDauTien = monAn[0];
+        console.log(monAnDauTien) // com
+    </pre>
+
+    &rarr;   Điền **index** vào trong cặp ngoặc vuông ([]), giá trị tương ứng sẽ được lấy ra. Cụ thể trong trường hợp trên, điền 0 vào trong cặp ngoặc vuông ([]), giá trị "com" tương ứng với **index 0** sẽ được lấy ra.
+
+        ***Bài tập:***
+
+        -   Tạo ra 1 Array chứa tên của các hãng xe: Honda, Suzuki, Yamaha, Kawasaki, Ducati, Triumph.
+
+        -   In ra màn hình "Ducati"
+-   **Truy cập tất cả phần tử:**
+    -   Trên thực tế, nhắc đến **Array** là người lập trình sẽ có xu hướng nghĩ ngay đến việc kết hợp với **Loop** với mong muốn duyệt qua hết tất cả các phần tử có trong **Array**. Cụ thể ở đây là **For Loop**.
+    -   Cú pháp:  
+        <pre>
+            let monAn = ["com", "thit", "ca", "trung", "rau"];
+            for (let i = 0; i < monAn.length; i++) {
+                console.log(i); // 0 1 2 3 4
+            }
+        </pre>
+    &rarr; Tạo ra một **vòng lặp for** với biến khởi tạo **i=0**, chừng nào i vẫn còn nhỏ hơn độ dài của monAn (**i < monAn.length**) thì i vẫn còn được phép tăng (**i++**). Bên trong chỉ đơn giản là **in ra i**.
+
+    &rarr; Giải thích một chút ở phần **i < monAn.length**:
+
+    -   **monAn.length** là **độ dài** (hay **số lượng phần tử**) của **monAn**, tức là 5.
+    -   Phần tử cuối cùng của **monAn** là **rau** mang **chỉ số** (i) là 4. 
+    -   Vậy **i < monAn.length** có nghĩa là người lập trình đang muốn **i chạy từ phần tử đầu tiên cho đến phần tử cuối cùng của Array**. Chỉ số của phần tử cuối cùng trong một **Array** luôn nhỏ hơn độ dài của Array 1 đơn vị.
+
+    &rarr; Có thể dễ dàng nhận thấy, biến i ở trong vòng lặp đại diện cho **chỉ số** của từng phần tử trong **monAn**. Vậy để lấy ra giá trị của phần tử, chúng ta chỉ đơn giản sửa như sau: 
+    <pre>
+            let monAn = ["com", "thit", "ca", "trung", "rau"];
+            for (let i = 0; i < monAn.length; i++) {
+                console.log(monAn[i]); // com thit ca rau trung
+            }
+    </pre>
+
+    ***Bài tập:*** 
+    -   Tạo ra 1 Array chứa tên của các hãng xe ô tô: Audi, Bentley, BMW, Bugatti, Ferrari, Ford.
+
+    -   In ra màn hình tất cả các hãng xe có trong Array vừa tạo.
+
 **3. Update**  
+-   Đây là thao tác **Cập nhật** giá trị mới cho một phần tử trong Array.
+
+-   Cú pháp:  
+    <pre>
+        let monAn = ["com", "thit", "ca", "trung", "rau"];
+        monAn[0] = "chao";
+    </pre>
+-   Chỉ đơn giản là truy cập vào phần tử muốn thay đổi, sau đó gán cho nó một giá trị mới, như cách bạn đặt giá trị cho biến.
+
+***Bài tập:***  
+-   In ra màn hình 1 Array chứa tên của 3 cầu thủ bóng đá: Ronaldo, Messi, Neymar. 
+
+-   Hỏi người dùng có muốn nhập thay đổi tên cầu thủ nào không bằng cách nhập "Y" hoặc "N".
+
+-   Nếu người dùng nhập "Y":
+    -   Hỏi người dùng vị trí của cầu thủ muốn thay đổi tên. Người dùng nhập 0 thì sẽ là Ronaldo, nhập 1 thì sẽ là Messi, Nhập 2 thì sẽ là Neymar.
+
+    -   Hỏi người dùng tên cầu thủ mới.
+
+    -   Tiến hành cập nhật tên cầu thủ mới thay thế cho cầu thủ cũ được chọn.
+    
+-   Nếu người dùng nhập "N", in ra màn hình câu "Good Bye!"
 
 **4. Delete**  
+-   Đây là thao tác **Xóa** một phần tử ra khỏi **Array**.
+-   Cú pháp: 
+    <pre>
+        let monAn = ["com", "thit", "ca", "trung", "rau"];
+        monAn.splice(0, 1);
+        console.log(monAn); // thit ca trung rau
+    </pre>
+-   Câu lệnh **monAn.splice(0, 1)** được giải thích như sau:  
+    -   Bắt đầu từ vị trí **0** của **Array monAn**, hãy **splice** (xóa) đi **1** phần tử.
+    -   Vậy **monAn** sẽ chỉ còn là:  
+    <pre>
+        let monAn = ["thit", "ca", "trung", "rau"];
+    </pre>
+-   Nếu sửa câu lệnh trên thành **monAn.splice(1, 2)**, giải thích như sau:  
+    -   Bắt đầu từ vị trí **1** của **Array monAn**, hãy **splice** (xóa) đi **2** phần tử.
+    -   Vậy **monAn** sẽ chỉ còn là:  
+    <pre>
+        let monAn = ["com", "trung", "rau"];
+    </pre>
 
+***Bài tập:***  
+-   In ra màn hình 1 Array chứa tên của 3 cầu thủ bóng đá: Ronaldo, Messi, Neymar. 
+
+-   Hỏi người dùng có muốn xóa cầu thủ nào không bằng cách nhập "Y" hoặc "N".
+
+-   Nếu người dùng nhập "Y":
+    -   Hỏi người dùng vị trí của cầu thủ muốn xóa. Người dùng nhập 0 thì sẽ là Ronaldo, nhập 1 thì sẽ là Messi, Nhập 2 thì sẽ là Neymar.
+
+    -   Tiến hành xóa cầu thủ được chọn.
+    
+-   Nếu người dùng nhập "N", in ra màn hình câu "Good Bye!"
+
+
+### III. BÀI TẬP
+Trên thực tế, khi nhận yêu cầu để làm sản phẩm, bạn cũng sẽ chỉ biết được người dùng muốn gì thôi, sẽ không có ai chỉ cho bạn từng bước làm cụ thể. Hình dưới đây chụp lại quá trình sử dụng chương trình của người dùng:  
+
+![Array-Exercise](../images/array/array_ex.png)  
+
+&rarr; Dựa vào hình trên, hãy viết một chương trình mô phỏng cửa hàng quần áo như hình trên.

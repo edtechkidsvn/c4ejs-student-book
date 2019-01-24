@@ -131,3 +131,4 @@
 
     -   Nếu delta = 0, thông báo "Phương trình có 1 nghiệm duy nhất".
 
+*Bài tiếp theo [Mảng (Array)](../array/array.md)*
