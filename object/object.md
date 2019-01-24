@@ -48,20 +48,20 @@
 
 -   **person** được gọi là một **Object**.
 
--   Mỗi một thông tin bên trong **person**  bao gồm 2 phần là **key** và **value**. Bên trái là **key**, bên phải là **value**. Mỗi một thông tin như vậy còn gọi là **một cặp key, value**. **Mỗi cặp key, value** được ngăn cách nhau bởi dấu phẩy (,). Trong đoạn code trên:
-    -   **name** là **key**.  
+-   Mỗi một thông tin bên trong **person**  bao gồm 2 phần là **property** và **value**. Bên trái là **property**, bên phải là **value**. Mỗi một thông tin như vậy còn gọi là **một cặp property, value**. **Mỗi cặp property, value** được ngăn cách nhau bởi dấu phẩy (,). Trong đoạn code trên:
+    -   **name** là **property**.  
         **"Quan"** là **value**.
     
-    -   **age** là **key**.  
+    -   **age** là **property**.  
         **22** là **value**.
 
-    -   **location** là **key**.  
+    -   **location** là **property**.  
         **"Ha Noi"** là **value**.
 
-    -   **height** là **key**.  
+    -   **height** là **property**.  
         **170** là **value**.
 
-    -   **weight** là **key**.  
+    -   **weight** là **property**.  
         **60** là **value**.
 
 ### III. CÁC THAO TÁC VỚI ĐỐI TƯỢNG (OBJECT)
@@ -69,7 +69,7 @@
 -   Cũng giống như **Array**, chúng a sẽ cần phải học 4 kỹ năng cơ bản bao gồm **Create**, **Read**, **Update**, **Delete** **(CRUD)** để có thể làm việc thành thạo được với **Object**
 
 **1. Create**  
--   Cú pháp thêm mới một thông tin, hay còn gọi là thêm 1 cặp **key**, **value** vào Object như sau:  
+-   Cú pháp thêm mới một thông tin, hay còn gọi là thêm 1 cặp **property**, **value** vào Object như sau:  
     <pre>
         let person = {
             name: "Quan",
@@ -81,7 +81,7 @@
         person.yearOfBirth = 1996;
     </pre>
 
--   Sau khi thực hiện câu lệnh **person.yearOfBirth = 1996**, **object person** sẽ có thêm 1 cặp **key**, **value** là **yearOfBirth: 1996**
+-   Sau khi thực hiện câu lệnh **person.yearOfBirth = 1996**, **object person** sẽ có thêm 1 cặp **property**, **value** là **yearOfBirth: 1996**
 
 ***Bài tập***:  
 -   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
@@ -95,7 +95,7 @@
 
 **2. Read**
 
--   Nếu như **Array** được **Truy cập** thông qua **chỉ số**, thì **Object** sẽ được **Truy cập** thông qua **key**.
+-   Nếu như **Array** được **Truy cập** thông qua **chỉ số**, thì **Object** sẽ được **Truy cập** thông qua **property**.
 
 -   Ví dụ: 
     <pre>
@@ -111,7 +111,7 @@
     </pre>
 
     -   Dấu chấm (.) ở câu lệnh **person.age** có thể hiểu là **"của"**. 
-    -   **person.age** nghĩa là lấy ra giá trị tương ứng với **key** **age** của object **person**.
+    -   **person.age** nghĩa là lấy ra giá trị tương ứng với **property** **age** của object **person**.
 
 **3. Update**
 -   Quy tắc giống với **Array**, đơn giản là truy cập vào phần tử muốn thay đổi, sau đó gán cho nó một giá trị mới, như cách bạn đặt giá trị cho biến.
@@ -135,7 +135,7 @@
 -   Cập nhật toàn bộ thông tin trên thành thông tin của cầu thủ Lionel Messi
 
 **4. Delete**
--   Cú pháp xóa một cặp **key**, **value** vào Object như sau:  
+-   Cú pháp xóa một cặp **property**, **value** vào Object như sau:  
 
     <pre>
         let person = {
@@ -149,7 +149,7 @@
         delete person.age;
     </pre>
 
--   Câu lệnh **delete person.age** được giải thích như sau: xóa **(delete)** đi thông tin có **key** là **age** của **object person**
+-   Câu lệnh **delete person.age** được giải thích như sau: xóa **(delete)** đi thông tin có **property** là **age** của **object person**
 
 ***Bài tập:***  
 -   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
@@ -166,9 +166,9 @@ Tạo ra một object như hình sau:
 
 ![Object-Exercise](../images/object/object_ex.png)  
 
--   Thêm một **key** với tên "pocket", với **value** là một **Array** bao gồm các phần tử "seashell", "strange berry", và "lint".
+-   Thêm một **property** với tên "pocket", với **value** là một **Array** bao gồm các phần tử "seashell", "strange berry", và "lint".
 
--   Xóa phần tử "dagger" trong **Array** của **key** backpack.
+-   Xóa phần tử "dagger" trong **Array** của **property** backpack.
 
 -   Cộng thêm 50 vào giá trị của **gold** (550).
 
