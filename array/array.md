@@ -220,3 +220,5 @@ Trên thực tế, khi nhận yêu cầu để làm sản phẩm, bạn cũng s�
 ![Array-Exercise](../images/array/array_ex.png)  
 
 &rarr; Dựa vào hình trên, hãy viết một chương trình mô phỏng cửa hàng quần áo như hình trên.
+
+*Bài tiếp theo [Đối tượng (Object)](../object/object.md)*
