@@ -6,7 +6,7 @@
 4. [Vòng lặp (Loops)](/loops/loops.md)
 5. [Câu lệnh rẽ nhánh (Branching Statement)](/branching/branching.md)
 6. [Mảng (Array)](/array/array.md)
-7. Đối tượng (Object)
+7. [Đối tượng (Object)](/object/object.md)
 8. Hàm (Functions)
 9. HTML
 10. CSS

@@ -43,11 +43,11 @@
     let monAn = ["com", "thit", "ca", "trung", "rau"];
 </pre>
 
+-   **monAn** được gọi là một **Array**.
+
 -   Tất cả các món ăn (phần tử) được liệt kê trong cặp ngoặc vuông ([]), ngăn cách nhau bởi dấu phẩy (,)
 
 ### II. CÁC THAO TÁC VỚI MẢNG (ARRAY)
-
--   Vì **Array** dùng để lưu trữ nhiều dữ liệu, nên cũng được tính là một **Kiểu Dữ Liệu**.
 
 -   Khi học về một **Kiểu Dữ Liệu** mới, ngoại trừ những **Kiểu Dữ Liệu** cơ bản chỉ lưu được một dữ liệu đơn (như **String**, **Number**, ...), thì sẽ cần phải học 4 kỹ năng cơ bản sau đây để có thể làm việc thành thạo được với nó:
 
@@ -121,11 +121,12 @@
 
     &rarr;   Điền **index** vào trong cặp ngoặc vuông ([]), giá trị tương ứng sẽ được lấy ra. Cụ thể trong trường hợp trên, điền 0 vào trong cặp ngoặc vuông ([]), giá trị "com" tương ứng với **index 0** sẽ được lấy ra.
 
-        ***Bài tập:***
+    ***Bài tập:***
 
-        -   Tạo ra 1 Array chứa tên của các hãng xe: Honda, Suzuki, Yamaha, Kawasaki, Ducati, Triumph.
+    -   Tạo ra 1 Array chứa tên của các hãng xe: Honda, Suzuki, Yamaha, Kawasaki, Ducati, Triumph.
 
-        -   In ra màn hình "Ducati"
+    -   In ra màn hình "Ducati"
+    
 -   **Truy cập tất cả phần tử:**
     -   Trên thực tế, nhắc đến **Array** là người lập trình sẽ có xu hướng nghĩ ngay đến việc kết hợp với **Loop** với mong muốn duyệt qua hết tất cả các phần tử có trong **Array**. Cụ thể ở đây là **For Loop**.
     -   Cú pháp:  
