@@ -11,4 +11,5 @@
 9. HTML
 10. CSS
 11. DOM
-12. Networking
+12. Async/Await
+13. Networking
