@@ -84,7 +84,7 @@
 -   Sau khi thực hiện câu lệnh **person.yearOfBirth = 1996**, **object person** sẽ có thêm 1 cặp **property**, **value** là **yearOfBirth: 1996**
 
 ***Bài tập***:  
--   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
+-   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**. Link tham khảo: https://vi.wikipedia.org/wiki/Cristiano_Ronaldo
 
 -   Hỏi người dùng có muốn nhập thêm thông tin của cầu thủ không bằng cách nhập "Y" hoặc "N".
 
@@ -132,7 +132,7 @@
 ***Bài tập***:  
 -   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
 
--   Cập nhật toàn bộ thông tin trên thành thông tin của cầu thủ Lionel Messi
+-   Cập nhật toàn bộ thông tin trên thành thông tin của cầu thủ Lionel Messi. Link tham khảo: https://vi.wikipedia.org/wiki/Lionel_Messi
 
 **4. Delete**
 -   Cú pháp xóa một cặp **property**, **value** vào Object như sau:  
@@ -149,7 +149,7 @@
         delete person.age;
     </pre>
 
--   Câu lệnh **delete person.age** được giải thích như sau: xóa **(delete)** đi thông tin có **property** là **age** của **object person**
+-   Câu lệnh **delete person.age** được giải thích như sau: xóa **(delete)** đi thông tin có **property** là **age** của **object person**.
 
 ***Bài tập:***  
 -   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
@@ -170,7 +170,7 @@ Tạo ra một object như hình sau:
 
 -   Xóa phần tử "dagger" trong **Array** của **property** backpack.
 
--   Cộng thêm 50 vào giá trị của **gold** (550).
+-   Cộng thêm 50 vào giá trị của **gold** (Giá trị sau khi cộng là 550).
 
 -   Xóa toàn bộ thông tin liên quan đến **pouch**.
 
