@@ -7,7 +7,7 @@
 5. [Câu lệnh rẽ nhánh (Branching Statement)](/branching/branching.md)
 6. [Mảng (Array)](/array/array.md)
 7. [Đối tượng (Object)](/object/object.md)
-8. Hàm (Functions)
+8. [Hàm (Functions)](/function/function.md)
 9. HTML
 10. CSS
 11. DOM
