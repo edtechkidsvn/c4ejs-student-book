@@ -51,7 +51,7 @@
 
 -   Khi học về một **Kiểu Dữ Liệu** mới, ngoại trừ những **Kiểu Dữ Liệu** cơ bản chỉ lưu được một dữ liệu đơn (như **String**, **Number**, ...), thì sẽ cần phải học 4 kỹ năng cơ bản sau đây để có thể làm việc thành thạo được với nó:
 
-    -   <b><u>C</u></b>reat: **Thêm mới** dữ liệu.
+    -   <b><u>C</u></b>reate: **Thêm mới** dữ liệu.
     -   <b><u>R</u></b>ead: **Đọc, truy cập** dữ liệu.
     -   <b><u>U</u></b>pdate: **Cập nhật** dữ liệu.
     -   <b><u>D</u></b>elete: **Xóa** dữ liệu.
@@ -126,7 +126,7 @@
     -   Tạo ra 1 Array chứa tên của các hãng xe: Honda, Suzuki, Yamaha, Kawasaki, Ducati, Triumph.
 
     -   In ra màn hình "Ducati"
-    
+
 -   **Truy cập tất cả phần tử:**
     -   Trên thực tế, nhắc đến **Array** là người lập trình sẽ có xu hướng nghĩ ngay đến việc kết hợp với **Loop** với mong muốn duyệt qua hết tất cả các phần tử có trong **Array**. Cụ thể ở đây là **For Loop**.
     -   Cú pháp:  
