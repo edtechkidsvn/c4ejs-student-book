@@ -78,7 +78,7 @@
 
 ***Bài tập***: Viết một function có nhiệm vụ in ra màn hình đoạn text **"Hello World!"** 3 lần.
 
-### II. THAM SỐ CỦA HÀM (FUNCTION ARGUMENTS)
+### II. THAM SỐ CỦA HÀM (FUNCTION PARAMETERS)
 
 **1. Giới thiệu**
 -   Bạn hãy viết 1 chương trình:
@@ -100,29 +100,29 @@
 
 ![Function-Img](../images/function/function_img_1.png) 
 
-&rarr; Cần phải cung cấp cho **function** một **biến** để nó có thể hoàn thành được nhiệm vụ của mình. **Biến** cung cấp cho **function**, được gọi là **tham số (argument)**. Cú pháp:  
+&rarr; Cần phải cung cấp cho **function** một **biến** để nó có thể hoàn thành được nhiệm vụ của mình. **Biến** cung cấp cho **function**, được gọi là **tham số (parameter)**. Cú pháp:  
 
 <pre>
-    function tenFunction(argument) {
-        // Use argument to complete your code
+    function tenFunction(parameter) {
+        // Use parameter to complete your code
     }
 </pre>
 
--   **argument** của một function sẽ được đặt trong cặp ngoặc tròn, bên cạnh tên function.
+-   **parameter** của một function sẽ được đặt trong cặp ngoặc tròn, bên cạnh tên function.
 
 **2. Ví dụ, cách sử dụng**
 
--   Đi ngay vào giải quyết bài toán kiểm tra chẵn lẻ bên trên sẽ giúp bạn hiểu rõ nhất về cách sử dụng **argument**.
+-   Đi ngay vào giải quyết bài toán kiểm tra chẵn lẻ bên trên sẽ giúp bạn hiểu rõ nhất về cách sử dụng **parameter**.
 
 -   Khai báo một **function** với tên **checkNumber**, có nhiệm vụ kiểm tra 1 số là chẵn hay lẻ, thông báo cho người dùng và thêm vào array myNumber:
     <pre>
-        function checkNumber(numberArgument) {
-            if (numberArgument % 2 === 0){
+        function checkNumber(numberparameter) {
+            if (numberparameter % 2 === 0){
                 console.log('Even Number');
             } else {
                 console.log('Odd Number');
             }
-            myNumber.push(numberArgument);
+            myNumber.push(numberparameter);
         }
     </pre>
 
@@ -139,10 +139,11 @@
     </pre>
 
 -   Đoạn code trên được giải thích thông qua câu nói vui sau:  
-    "Hey **checkNumber**, mày hãy nhận lấy số **number1** mà người dùng vừa nhập vào, **coi nó là numberArgument** của mày, sau đó thực hiện công việc bên trong nhé."
+    "Hey **checkNumber**, mày hãy nhận lấy số **number1** mà người dùng vừa nhập vào, **coi nó là numberparameter** của mày, sau đó thực hiện công việc bên trong nhé."
 
-***Lưu ý:*** Một **function** có thể khai báo một hoặc nhiều argument, ngăn cách nhau bởi dấu phẩy (,). Khai báo ra bao nhiêu argument, sử dụng bấy nhiêu.
+***Lưu ý:*** Một **function** có thể khai báo một hoặc nhiều parameter, ngăn cách nhau bởi dấu phẩy (,). Khai báo ra bao nhiêu parameter, sử dụng bấy nhiêu.
 
-***Bài tập:*** Viết một function thực hiện tính tổng 2 số bất kỳ do người dùng nhập vào.
+***Bài tập:*** Viết một function có chức năng tính tổng 2 số bất kỳ do người dùng nhập vào và in kết quả ra màn hình.
 
-### III. HÀM CÓ RETURN (FUNCTION RETURN)
+*Bài tiếp theo [Hàm (Function) - Part 2](../function/function-part2.md)*
+

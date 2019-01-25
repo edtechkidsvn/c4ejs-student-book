@@ -1,11 +1,16 @@
-for (let index = 1; index <= 3; index++) {
-  let number${index} = prompt("Input your number: ");
-      
-      if (number3 % 2 === 0){
-          console.log('Even Number');
-      } else {
-          console.log('Odd Number');
-      }
-  
-      muNumber.push(number3);
+let sumOfSquare = 0;
+
+for (let index = 1; index <= 100; index++) {
+    sumOfSquare += index*index;
 }
+
+
+let squareOfSum = 0;
+
+for (let index = 1; index <= 100; index++) {
+    squareOfSum += index;
+}
+
+console.log(squareOfSum*squareOfSum);
+console.log(sumOfSquare);
+console.log(squareOfSum*squareOfSum - sumOfSquare);

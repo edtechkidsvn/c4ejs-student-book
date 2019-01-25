@@ -174,4 +174,4 @@ Tạo ra một object như hình sau:
 
 -   Xóa toàn bộ thông tin liên quan đến **pouch**.
 
-*Bài tiếp theo [Hàm (Function)](../function/function.md)*
+*Bài tiếp theo [Hàm (Function) - Part 1](../function/function.md)*

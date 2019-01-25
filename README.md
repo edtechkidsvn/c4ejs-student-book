@@ -7,9 +7,10 @@
 5. [Câu lệnh rẽ nhánh (Branching Statement)](/branching/branching.md)
 6. [Mảng (Array)](/array/array.md)
 7. [Đối tượng (Object)](/object/object.md)
-8. [Hàm (Functions)](/function/function.md)
-9. HTML
-10. CSS
-11. DOM
-12. Async/Await
-13. Networking
+8. [Hàm (Function) - Part 1](/function/function-part1.md)
+9. [Hàm (Function) - Part 2](/function/function-part2.md)
+10. HTML
+11. CSS
+12. DOM
+13. Async/Await
+14. Networking
