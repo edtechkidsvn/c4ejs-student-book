@@ -10,7 +10,9 @@
 
 -   Số tiền mà Đức nhận được mỗi giờ có thể được biểu diễn bởi biểu thức sau:  
 
-    <pre>100+tips</pre>
+    ``` javascript
+    100+tips
+    ```
 
 -   Số tiền boa (**tips**) mỗi giờ có thể ít, có thể nhiều hoặc không có tùy thuộc vào nhiều yếu tố như: giờ đó đông hay vắng khách, thái độ của khách đang vui hay buồn,...Nói tóm lại, **tips có thể thay đổi (vary)**.
 
@@ -29,7 +31,9 @@ Trong ví dụ trên, **tips** được gọi là biến (variable).
 
 -   Cú pháp khai báo biến trong javascript như sau: 
 
-    <pre>let firstVariable;</pre>
+    ``` javascript
+    let firstVariable;
+    ```
 -   Ở câu lệnh trên:
     -   "firstVariable" là tên biến, có thể đặt tùy ý, lưu ý là cần phải đặt tên biến có nghĩa và phải tuân thủ theo các quy tắc đặt tên. 
 
@@ -39,11 +43,11 @@ Trong ví dụ trên, **tips** được gọi là biến (variable).
         
 -   Một vài ví dụ về cách khai báo biến:  
 
-    <pre>
+    ``` javascript
         let myMovie;
         const bestSchool;
         var dateOfBirth;
-    </pre>
+    ```
 
 **4. Quy tắc đặt tên**  
 
@@ -70,29 +74,29 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
     <i>**Bài tập**</i>  
     1.  Sau khi chạy những đoạn code dưới đây, x bằng bao nhiêu?  
         -   Code 1
-            <pre>
+            ``` javascript
                 let x = 5;
                 let x = 10;
-            </pre>
+            ```
             *[Đáp án](result-1.md)*
             -   Code 2
-            <pre>
+            ``` javascript
                 let x = 5;
                 x = 10;
-            </pre>
+            ```
             *[Đáp án](result-2.md)*
 
     
 
     2.  Những cách khai báo biến nào sau đây hợp lệ:  
-        <pre>
+        ``` javascript
             var break;
             let Break;
             let year-of-birth;
             const MYFAVORITE;
             const tech_kids;
             const 4ever;
-        </pre>
+        ```
         *[Đáp án](result-3.md)*
 
 
@@ -112,26 +116,29 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
 
     *Ví dụ*
 
-    <pre>
+    ``` javascript
         {
             let x = 5;
         };
+
         console.log(x); //x is not defined
-    </pre>
+    ```
 
     Trong ví dụ trên, chương trình sẽ báo lỗi "x is not defined", vì biến x được khai báo bởi **let** nằm bên trong cặp {} (**Scope**), trong khi câu lệnh console.log(x) lại nằm bên ngoài, vì vậy nên không thể in được x ra màn hình.
 
     <i>**Bài tập**</i>  
     Giá trị của x là bao nhiêu sau khi chạy đoạn code dưới đây?
-    <pre>
+    ``` javascript
         {
             let y = 30;
+
             {
                 let x = 20;
             }
+
             console.log(x);
         }
-    </pre>  
+    ```  
     *[Đáp án](result-5.md)*  
 
 
@@ -139,36 +146,36 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
 **1. Declaring variables và Evaluating variables**
 -   **Declaring variables**: Hiểu một cách đơn giản thì đây là những biến được khai báo và được gán một giá trị nào đó.
 
-    <pre>
+    ``` javascript
         const theBestSchool = "TechKids";
         let mySport = "Football";
         var myPhoneNumber = "0123456789";
-    </pre>
+    ```
 
 -   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là <i>undefined</i>
 
-    <pre>
+    ``` javascript
         const theBestSchool;
         let mySport;
         var myPhoneNumber;
-    </pre>
+    ```
 
 **2. Hoisting Variable**
 
 Cùng quan sát 2 đoạn code dưới đây:  
 
 -   Code 1  
-    <pre>
+    ``` javascript
         console.log(x); // x == undefined;
         var x = 5;
-    </pre>
+    ```
 
 -   Code 2  
-    <pre>
+    ``` javascript
         var x;
         console.log(x); // x == undefined;
         x = 5;
-    </pre>
+    ```
 
 Việc JavaScript tự động ngầm chuyển đoạn code 1 sang đoạn code 2 rồi mới thực thi lệnh được gọi là **Hoisting**. JavaScript sẽ đưa việc khai báo biến lên trên cùng, việc gán giá trị vẫn giữ nguyên. Điều này giải thích tại sao khi truy cập biến x ở ảnh 1 trước khi x được khai báo, nhưng chương trình lại không báo lỗi, mà chỉ trả ra giá trị mặc định của x.  
 

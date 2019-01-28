@@ -1,25 +1,25 @@
-<pre>
+``` javascript
     var break;
     let Break;
     let year-of-birth;
     const MYFAVORITE;
     const tech_kids;
     const 4ever;
-</pre>
+```
 
 Những cách khai báo biến **hợp lệ** bao gồm:
-<pre>
+``` javascript
     let Break;
     const MYFAVORITE;
     const tech_kids;
-</pre>
+```
 
 Những cách khai báo biến **không hợp lệ** bao gồm:
-<pre>
+``` javascript
     let break;
     let year-of-birth;
     const 4ever;
-</pre>
+```
 
 -   Cách khai báo biến thứ nhất không hợp lệ vì **break** nằm trong số keywords của JavaScript.
 

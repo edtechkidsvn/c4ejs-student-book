@@ -33,11 +33,11 @@
 
 **3. Cú pháp**
 
-<pre>
+``` javascript
     function tenFunction() {
         // Your code
     }
-</pre>
+```
 
 -   **function**: **keyword** bắt buộc cần phải có khi khai báo một **Function**.
 
@@ -49,32 +49,34 @@
 
     &rarr; Vậy cũng giống như gọi tên người, bạn chỉ cần gọi tên **function** đã được khai báo để sử dụng nó. Đằng sau tên có kèm theo cặp ngoặc tròn. Cú pháp:
 
-    <pre>
+    ``` javascript
         tenFunction();
-    </pre>
+    ```
 -   Khi đó, phần code bên trong **function tenFunction** mới được thực hiện.
 
 **4. Ví dụ**
 
 -   Để giải quyết bài toán ở đầu chương, bạn khai báo một **function** như sau:
-    <pre>
+    ``` javascript
         function renderLorem() {
             console.log("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
         }
-    </pre>
+    ```
 
 -   Ở ví dụ trên, một **function** được khai báo ra với tên **renderLorem**, có nhiệm vụ thực hiện in ra màn hình đoạn text ***"Lorem ipsum..."*** mỗi khi được gọi.
 
 -   Sau khi đã có **function renderLorem**, thực hiện gọi ở những vị trí tương ứng như yêu cầu của đề bài:
 
-    <pre>
+    ``` javascript
         renderLorem();
         console.log("Hello");
+
         renderLorem();
         console.log("How are you today?");
+
         renderLorem();
         console.log("Have a good day!");
-    </pre>
+    ```
 
 ***Bài tập***: Viết một function có nhiệm vụ in ra màn hình đoạn text **"Hello World!"** 3 lần.
 
@@ -102,11 +104,11 @@
 
 &rarr; Cần phải cung cấp cho **function** một **biến** để nó có thể hoàn thành được nhiệm vụ của mình. **Biến** cung cấp cho **function**, được gọi là **tham số (parameter)**. Cú pháp:  
 
-<pre>
+``` javascript
     function tenFunction(parameter) {
         // Use parameter to complete your code
     }
-</pre>
+```
 
 -   **parameter** của một function sẽ được đặt trong cặp ngoặc tròn, bên cạnh tên function.
 
@@ -115,28 +117,31 @@
 -   Đi ngay vào giải quyết bài toán kiểm tra chẵn lẻ bên trên sẽ giúp bạn hiểu rõ nhất về cách sử dụng **parameter**.
 
 -   Khai báo một **function** với tên **checkNumber**, có nhiệm vụ kiểm tra 1 số là chẵn hay lẻ, thông báo cho người dùng và thêm vào array myNumber:
-    <pre>
+    ``` javascript
         function checkNumber(numberparameter) {
             if (numberparameter % 2 === 0){
                 console.log('Even Number');
             } else {
                 console.log('Odd Number');
             }
+
             myNumber.push(numberparameter);
         }
-    </pre>
+    ```
 
 -   Việc tiếp theo bạn cần làm không dừng lại ở việc chỉ cần gọi **checkNumber()** nữa, mà bạn sẽ cần phải cho **function checkNumber** biết nó sẽ phải kiểm tra số nào. Cú pháp:
-    <pre>
+    ``` javascript
         let myNumber = [];
 
         let number1 = prompt("Input your number: ");
         checkNumber(number1);
+
         let number2 = prompt("Input your number: ");
         checkNumber(number2);
+        
         let number3 = prompt("Input your number: ");
         checkNumber(number3);
-    </pre>
+    ```
 
 -   Đoạn code trên được giải thích thông qua câu nói vui sau:  
     "Hey **checkNumber**, mày hãy nhận lấy số **number1** mà người dùng vừa nhập vào, **coi nó là numberparameter** của mày, sau đó thực hiện công việc bên trong nhé."

@@ -21,25 +21,38 @@
 
 -   Giả sử hàm tính tổng bạn đã biết được viết như sau:
 
-    <pre>
+    ``` javascript
         function add(a, b) {
             console.log(a+b);
         }
-    </pre>
+    ```
 
 -   Thay vì **console.log(a+b)**, bạn hãy sửa thành:
 
-    <pre>
+    ``` javascript
         function add(a, b) {
             return a+b;
         }
-    </pre>
+    ```
 
 -   Như vậy, **function add** lúc này sẽ chỉ có nhiệm vụ tính toán và đưa ra kết quả thôi, không hề liên quan đến việc in ra màn hình &rarr; Với việc sử dụng **return**, bạn có thể dễ dàng trình bày kết quả theo từng tình huống khác nhau. Cụ thể:
-    <pre>
+    ``` javascript
         console.log("The result of sum between one and two is ", add(1, 2));
+
         console.log("Hello, we are One and Two, our sum is ", add(1, 2));
-    </pre>
+    ```
+
+-   Bạn cũng có thể sử dụng biến để chứa kết quả return của hàm, sau đó mới mang biến đó đi sử dụng. Ví dụ:  
+    ``` javascript
+        let addResult = add(1, 2);
+
+        console.log(`The result of sum between one and two is ${addResult}`);
+
+        console.log(`Hello, we are One and Two, our sum is ${addResult}`);
+    ```
+
+-   Có thể thấy, code minh bạch và dễ hiểu hơn rất nhiều.
+&rarr; Khuyến cáo nên sử dụng cách này.
 
 **NHẬN XÉT:**
 
@@ -47,7 +60,13 @@
 
 ***Bài tập:***
 
-1.  Viết function thực hiện xóa hết tất cả các dấu dollars ($) trong một string. Function có một parameter (nhận vào một đoạn string bất kỳ). **Return** ra một string mới không chứa dấu dollars ($).
+1.  Viết function với tên *remove_dollar_sign* thực hiện xóa hết tất cả các dấu dollars ($) trong một string. Function có một parameter (nhận vào một đoạn string bất kỳ). **Return** ra một string mới không chứa dấu dollars ($).
 Gợi ý: https://www.w3schools.com/jsref/jsref_replace.asp
 
-2.  
+    Bạn có thể sử dụng đoạn string dưới đây để kiểm tra function của mình:  
+    "$80% percent of $life is to show $up".  
+
+2.  Sử dụng function để tối ưu đoạn code sau:
+    [](/exercise.md)
+
+*Bài tiếp theo [Hàm Callbacks (CALLBACKS FUNCTION)](../function/function-callback.md)*

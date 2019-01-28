@@ -3,9 +3,9 @@
 ### I. ĐỐI TƯỢNG LÀ GÌ? (OBJECT)
 **1. Giới thiệu**
 -   Hãy nhìn vào **Array** sau:
-    <pre>
+    ``` javascript
         let person = ["Quan", 22, "Ha Noi", 170, 60, 96, 5];
-    </pre>
+    ```
 
 -   Có phải bạn đang thắc mắc về ý nghĩa của một số phần tử trong **Array person**? Ví dụ như các con số 60, 96, 5 mang ý nghĩa gì?
 
@@ -16,10 +16,10 @@
 **2. So sánh**
 
 -   Cùng nhìn vào 2 **Array** sau đây:  
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         let person = ["Quan", 22, "Ha Noi", 170, 60, 96, 5];
-    </pre>
+    ```
 -   Tại sao ở chương trước khi học về Array, nhìn vào **monAn**, bạn lại cảm thấy không hề khó hiểu?
 
 &rarr; Lý do là với **monAn**, các phần tử bên trong nó đều **mang cùng một ý nghĩa** là **món ăn**. Còn với **person**, mặc dùng lưu trữ thông tin xoay quanh về 1 người, nhưng mỗi phần tử mang một ý nghĩa khác nhau.
@@ -34,7 +34,7 @@
 -   **Object** được dùng để lưu trữ dữ liệu, vậy nên **Object** cũng được tính là 1 **Kiểu Dữ Liệu**.
 
 **4. Cú pháp**
-<pre>
+``` javascript
     let person = {
         name: "Quan",
         age: 22,
@@ -42,7 +42,7 @@
         height: 170,
         weight: 60
     }
-</pre>
+```
 
 -   Nhìn vào đoạn code trên, bạn đã dễ dàng hiểu ngay được ý nghĩa cụ thể của từng giá trị.
 
@@ -70,7 +70,7 @@
 
 **1. Create**  
 -   Cú pháp thêm mới một thông tin, hay còn gọi là thêm 1 cặp **property**, **value** vào Object như sau:  
-    <pre>
+    ``` javascript
         let person = {
             name: "Quan",
             age: 22,
@@ -78,8 +78,9 @@
             height: 170,
             weight: 60
         }
+        
         person.yearOfBirth = 1996;
-    </pre>
+    ```
 
 -   Sau khi thực hiện câu lệnh **person.yearOfBirth = 1996**, **object person** sẽ có thêm 1 cặp **property**, **value** là **yearOfBirth: 1996**
 
@@ -98,7 +99,7 @@
 -   Nếu như **Array** được **Truy cập** thông qua **chỉ số**, thì **Object** sẽ được **Truy cập** thông qua **property**.
 
 -   Ví dụ: 
-    <pre>
+    ``` javascript
         let person = {
             name: "Quan",
             age: 22,
@@ -108,7 +109,7 @@
         }
         
         console.log(person.age) // 22
-    </pre>
+    ```
 
     -   Dấu chấm (.) ở câu lệnh **person.age** có thể hiểu là **"của"**. 
     -   **person.age** nghĩa là lấy ra giá trị tương ứng với **property** **age** của object **person**.
@@ -117,7 +118,7 @@
 -   Quy tắc giống với **Array**, đơn giản là truy cập vào phần tử muốn thay đổi, sau đó gán cho nó một giá trị mới, như cách bạn đặt giá trị cho biến.
 
 -   Cú pháp:  
-    <pre>
+    ``` javascript
         let person = {
             name: "Quan",
             age: 22,
@@ -127,7 +128,7 @@
         }
         
         person.name = "Don";
-    </pre>
+    ```
 
 ***Bài tập***:  
 -   Tạo ra một object chứa thông tin về cầu thủ Cristiano Ronaldo, bao gồm **tên**, **năm sinh**, **quốc tịch**.
@@ -137,7 +138,7 @@
 **4. Delete**
 -   Cú pháp xóa một cặp **property**, **value** vào Object như sau:  
 
-    <pre>
+    ``` javascript
         let person = {
             name: "Quan",
             age: 22,
@@ -147,7 +148,7 @@
         }
         
         delete person.age;
-    </pre>
+    ```
 
 -   Câu lệnh **delete person.age** được giải thích như sau: xóa **(delete)** đi thông tin có **property** là **age** của **object person**.
 

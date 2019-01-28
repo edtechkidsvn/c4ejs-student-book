@@ -23,21 +23,21 @@
 
 **1. Câu lệnh if**  
 
-<pre>
+``` javascript
     if (dieuKien1) {
         // code 1
     }
-</pre>
+```
 
 -   Nếu **dieuKien1** đúng, thì phần **code 1** sẽ được thực hiện. Ví dụ:
 
-    <pre>
+    ``` javascript
         let age = prompt("Your age? ")
         
         if (age < 10) {
             console.log("You are Baby!");
         } 
-    </pre>
+    ```
 
 -   Đoạn code trên giải nghĩa như sau:  
     -   Cho người dùng nhập tuổi, số tuổi mà người dùng nhập sẽ được lưu vào biến **age**.
@@ -45,15 +45,15 @@
     -   **Nếu** (**if**) age nhỏ hơn 10 thì màn hình sẽ in ra "You are Baby!"
 
 **2. Câu lệnh else if**
-<pre>
+``` javascript
     if (dieuKien1) {
         // code 1
     } else if (dieuKien2) {
         // code 2
     }
-</pre>
+```
 -   Nếu **dieuKien1** của **if** sai, thì **dieuKien2** của **else if** sẽ được xét, nếu **dieuKien2** đúng, phần **code 2** **nằm trong else if** sẽ được thực hiện. Ví dụ:
-    <pre>
+    ``` javascript
         let age = prompt("Your age? ")
         
         if (age < 10) {
@@ -61,7 +61,7 @@
         } else if (age < 18) {
             console.log("You are Teenager");
         }
-    </pre>
+    ```
 
 -   Đoạn code trên giải nghĩa như sau:  
     -   Cho người dùng nhập tuổi, số tuổi mà người dùng nhập sẽ được lưu vào biến **age**.
@@ -71,7 +71,7 @@
     -   **Còn nếu** (**else if**) age không nhỏ hơn 10, nhưng age nhỏ hơn 18 thì màn hình sẽ in ra "You are Teenager!"
 
 **3. Câu lệnh else** 
-<pre>
+``` javascript
     if (dieuKien1) {
         // code 1
     } else if (dieuKien2) {
@@ -79,9 +79,9 @@
     } else {
         // code 3
     }
-</pre>
+```
 -   Nếu **dieuKien1** của **if** và **dieuKien2** của **else if** đều sai, thì phần **code 3** **nằm trong else** sẽ được thực hiện. Ví dụ:
-    <pre>
+    ``` javascript
         let age = prompt("Your age? ")
         
         if (age < 10) {
@@ -91,7 +91,7 @@
         } else {
             console.log("You are Adult");
         }
-    </pre>
+    ```
 
 -   Đoạn code trên giải nghĩa như sau:  
     -   Cho người dùng nhập tuổi, số tuổi mà người dùng nhập sẽ được lưu vào biến **age**.
@@ -109,7 +109,7 @@
 
 **4. Bài tập**  
 1.  Cho người dùng nhập vào chiều cao, cân nặng. Tính ra chỉ số BMI dựa vào công thức, sau đó in ra thông báo tương ứng:  
-    <pre>
+    ``` javascript
         BMI = weight/(height*height)
         Trong đó:
         weight: cân nặng
@@ -121,7 +121,7 @@
         30 - 34.9: Béo phì cấp độ 1
         35 - 39.9: Béo phì cấp độ 2
         > 40: Béo phì cấp độ 3
-    </pre>
+    ```
 
 2.  Viết chương trình tính số nghiệm của phương trình bậc 2, dựa vào 3 số a, b, c mà người dùng nhập vào:  
 

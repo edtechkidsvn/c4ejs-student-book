@@ -21,11 +21,11 @@
 
 **1. Cú pháp cơ bản**  
 
-<pre>
+``` javascript
     for (bienKhoiTao; dieuKienLap; buocNhay) {
         // phần code của bạn 
     }
-</pre>
+```
 
 -   **bienKhoiTao**, **dieuKienLap** và **buocNhay** sẽ là những câu lệnh phù hợp, tương ứng với từng trường hợp cụ thể, được ngăn cách nhau bởi dấu chấm phẩy ( ; )
 
@@ -33,11 +33,11 @@
 
 -   Một **vòng lặp for** được viết ra đầy đủ với các câu lệnh tương ứng với cả 3 statement như sau:
 
-<pre>
+``` javascript
     for (let i = 0; i < 10; i++) {
         // phần code của bạn
     }
-</pre>
+```
 
 -   Tạm thời bạn hãy chỉ tập trung vào con số **10**, còn lại tất cả những thứ khác bên cạnh số **10** sẽ được giải thích ở phần tiếp theo.
 
@@ -45,11 +45,11 @@
 
 -   Ví dụ:
 
-<pre>
+``` javascript
     for (let i = 0; i < 50; i++) {
         console.log("Welcome to C4EJS Course!")
     }
-</pre>  
+```  
 -   Trong ví dụ trên, đoạn **string** "Welcome to C4EJS Course!" sẽ được in ra màn hình 50 lần.
 
 ***Bài tập***  
@@ -57,21 +57,21 @@
 
 **2. Chi tiết cú pháp**  
 -   Cùng nhìn lại ví dụ ở phía trên:  
-    <pre>
+    ``` javascript
         for (let i = 0; i < 50; i++) {
             console.log("Welcome to C4EJS Course!")
         }
-    </pre>
+    ```
 
 -   Đoạn **string** "Welcome to C4EJS Course!" được in ra 50 lần. Nói là vậy nhưng tất cả những gì chúng ta nhìn thấy trên màn hình chỉ là một loạt "Welcome to C4EJS Course!" xếp chồng lên nhau. Chẳng có gì để đảm bảo là ở trước mặt chúng ta đã có đủ 50 dòng "Welcome to C4EJS Course!"
 
 -   Để chứng minh thực sự trước mặt chúng ta là 50 dòng "Welcome to C4EJS Course!", hãy sửa đoạn code ở ví dụ trên như sau (in ra **i** bên cạnh "Welcome to C4EJS Course!"):  
 
-    <pre>
+    ``` javascript
         for (let i = 0; i < 50; i++) {
             console.log(i, "Welcome to C4EJS Course!")
         }
-    </pre>
+    ```
 
 -   Như vậy là phía trước "Welcome to C4EJS Course!" sẽ xuất hiện các số lần lượt từ 0 đến 49. Từ ví dụ cũng như kết quả, có thể hiểu các thành phần của **For Loop** như sau:  
     -   **bienKhoiTao** là nơi khai báo một biến với tên biến và value tùy ý.

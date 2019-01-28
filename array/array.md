@@ -5,23 +5,23 @@
 -   Hãy tưởng tượng bạn là người viết chương trình quản lý menu các món ăn cho một nhà hàng. Bếp trưởng sẽ là người sử dụng phần mềm của bạn.
 
 -   Ban đầu nhà hàng khai trương với một menu gồm 5 món ăn, bạn liệt kê chúng như sau:  
-    <pre>
+    ``` javascript
         let monAn1 = "com";
         let monAn2 = "thit";
         let monAn3 = "ca";
         let monAn4 = "trung";
         let monAn5 = "rau";
-    </pre>
+    ```
 
 -   Một ngày đẹp trời, bếp trưởng muốn thêm món **bún** vào menu, lúc này bạn sẽ nghĩ ngay đến việc bật máy tính -> mở code ra -> khai báo thêm 1 biến mới để lưu thêm **bún** vào menu:  
-    <pre>
+    ``` javascript
         let monAn1 = "com";
         let monAn2 = "thit";
         let monAn3 = "ca";
         let monAn4 = "trung";
         let monAn5 = "rau"; 
         let monAn6 = "bun"; 
-    </pre>
+    ```
 
 - Đến đây mọi chuyện vẫn ổn, chưa có gì khó khăn, nhưng bây giờ nhà hàng tuyển thêm 4 người phụ bếp nữa, mỗi người cảm thấy cần phải thêm một món mới của riêng họ vào menu. Lúc này thì có 1 vài vấn đề thực sự xảy ra:  
     -   Càng ngày nhu cầu thêm mới món ăn vào menu ngày càng nhiều, chưa kể sau một thời gian, có những món không mấy ai dùng, nhà hàng cần phải xóa khỏi menu, hoặc sửa thành món khác.
@@ -39,9 +39,9 @@
 -   **Array** được dùng để lưu trữ dữ liệu, vậy nên **Array** cũng được tính là 1 **Kiểu Dữ Liệu**.
 
 **3. Cú pháp**  
-<pre>
+``` javascript
     let monAn = ["com", "thit", "ca", "trung", "rau"];
-</pre>
+```
 
 -   **monAn** được gọi là một **Array**.
 
@@ -58,19 +58,20 @@
 
 -   Trước khi đi vào học 4 thao tác trên, bạn cần phải nắm được khái niệm **Độ Dài Của Mảng (Length)**
 
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
-    </pre>
+    ```
 
     Trong **Array monAn**, bằng mắt thường bạn có thể dễ dàng thấy có 5 món ăn. Tuy nhiên hãy thử tưởng tượng **Array monAn** chứa hàng chục thậm chí hàng trăm món ăn, chắc chắn là bạn không đủ kiên nhẫn để đếm xem **Array monAn** chứa bao nhiêu món ăn.
 
     &rarr; JS cung cấp cho bạn một cách để có thể nhanh chóng biết được số lượng phần tử có trong một **Array**:  
 
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         let soLuongMonAn = monAn.length;
+
         console.log(soLuongMonAn) // 5
-    </pre>
+    ```
 
 -   Sau khi đã nắm được cách kiểm tra số lượng phần tử có trong một **Array**, chúng ta đã có thể sẵn sàng để làm quen với 4 thao tác cơ bản như đã giới thiệu ở trên.
 
@@ -78,11 +79,12 @@
 
 -   Đây là thao tác **thêm mới phần tử** vào **Array**, trong thực tế thì mỗi khi có một phần tử được thêm mới vào **Array**, thì hầu hết trong mọi tình huống nó sẽ được thêm vào cuối **Array**. Vì vậy trong bài này sẽ chỉ nhắc đến cách thêm phần tử vào cuối **Array**. Cú pháp như sau:  
 
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         monAn.push("bun dau");
+
         console.log(monAn); // ["com", "thit", "ca", "trung", "rau", "bun dau"]
-    </pre>
+    ```
 
 -   Trong ví dụ trên, sau khi thực hiện câu lệnh **monAn.push("bun dau")**, **array monAn** sẽ có thêm 1 phần tử **"bun dau"** nằm ở cuối cùng.
 
@@ -103,9 +105,9 @@
 -   Một phần tử trong **Array** sẽ được truy cập thông qua **chỉ số (index)**.
 -   Các phần tử trong **Array** được đánh số thứ tự từ trái qua phải, **bắt đầu từ 0**. Số thứ tự của 1 phần tử được gọi là **chỉ số (index)** của phần tử.
 -   Ví dụ:
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
-    </pre>
+    ```
     -   "com" mang **index** là 0.
     -   "thit" mang **index** là 1.  
     -   "ca" mang **index** là 2.  
@@ -114,10 +116,10 @@
 
 -   **Truy cập một phần tử:**  
     -   Cú pháp **truy cập** một phần tử thông qua **index tương ứng** như sau:  
-    <pre>
+    ``` javascript
         let monAnDauTien = monAn[0];
         console.log(monAnDauTien) // com
-    </pre>
+    ```
 
     &rarr;   Điền **index** vào trong cặp ngoặc vuông ([]), giá trị tương ứng sẽ được lấy ra. Cụ thể trong trường hợp trên, điền 0 vào trong cặp ngoặc vuông ([]), giá trị "com" tương ứng với **index 0** sẽ được lấy ra.
 
@@ -130,12 +132,13 @@
 -   **Truy cập tất cả phần tử:**
     -   Trên thực tế, nhắc đến **Array** là người lập trình sẽ có xu hướng nghĩ ngay đến việc kết hợp với **Loop** với mong muốn duyệt qua hết tất cả các phần tử có trong **Array**. Cụ thể ở đây là **For Loop**.
     -   Cú pháp:  
-        <pre>
+        ``` javascript
             let monAn = ["com", "thit", "ca", "trung", "rau"];
+
             for (let i = 0; i < monAn.length; i++) {
                 console.log(i); // 0 1 2 3 4
             }
-        </pre>
+        ```
     &rarr; Tạo ra một **vòng lặp for** với biến khởi tạo **i=0**, chừng nào i vẫn còn nhỏ hơn độ dài của monAn (**i < monAn.length**) thì i vẫn còn được phép tăng (**i++**). Bên trong chỉ đơn giản là **in ra i**.
 
     &rarr; Giải thích một chút ở phần **i < monAn.length**:
@@ -145,12 +148,13 @@
     -   Vậy **i < monAn.length** có nghĩa là người lập trình đang muốn **i chạy từ phần tử đầu tiên cho đến phần tử cuối cùng của Array**. Chỉ số của phần tử cuối cùng trong một **Array** luôn nhỏ hơn độ dài của Array 1 đơn vị.
 
     &rarr; Có thể dễ dàng nhận thấy, biến i ở trong vòng lặp đại diện cho **chỉ số** của từng phần tử trong **monAn**. Vậy để lấy ra giá trị của phần tử, chúng ta chỉ đơn giản sửa như sau: 
-    <pre>
+    ``` javascript
             let monAn = ["com", "thit", "ca", "trung", "rau"];
+            
             for (let i = 0; i < monAn.length; i++) {
                 console.log(monAn[i]); // com thit ca rau trung
             }
-    </pre>
+    ```
 
     ***Bài tập:*** 
     -   Tạo ra 1 Array chứa tên của các hãng xe ô tô: Audi, Bentley, BMW, Bugatti, Ferrari, Ford.
@@ -161,11 +165,11 @@
 -   Đây là thao tác **Cập nhật** giá trị mới cho một phần tử trong Array.
 
 -   Cú pháp:  
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         monAn[0] = "chao";
         console.log(monAn) // chao thit ca trung rau
-    </pre>
+    ```
 -   Chỉ đơn giản là truy cập vào phần tử muốn thay đổi, sau đó gán cho nó một giá trị mới, như cách bạn đặt giá trị cho biến.
 
 ***Bài tập:***  
@@ -185,23 +189,23 @@
 **4. Delete**  
 -   Đây là thao tác **Xóa** một phần tử ra khỏi **Array**.
 -   Cú pháp: 
-    <pre>
+    ``` javascript
         let monAn = ["com", "thit", "ca", "trung", "rau"];
         monAn.splice(0, 1);
         console.log(monAn); // thit ca trung rau
-    </pre>
+    ```
 -   Câu lệnh **monAn.splice(0, 1)** được giải thích như sau:  
     -   Bắt đầu từ vị trí **0** của **Array monAn**, hãy **splice** (xóa) đi **1** phần tử.
     -   Vậy **monAn** sẽ chỉ còn là:  
-    <pre>
+    ``` javascript
         let monAn = ["thit", "ca", "trung", "rau"];
-    </pre>
+    ```
 -   Nếu sửa câu lệnh trên thành **monAn.splice(1, 2)**, giải thích như sau:  
     -   Bắt đầu từ vị trí **1** của **Array monAn**, hãy **splice** (xóa) đi **2** phần tử.
     -   Vậy **monAn** sẽ chỉ còn là:  
-    <pre>
+    ``` javascript
         let monAn = ["com", "trung", "rau"];
-    </pre>
+    ```
 
 ***Bài tập:***  
 -   In ra màn hình 1 Array chứa tên của 3 cầu thủ bóng đá: Ronaldo, Messi, Neymar. 

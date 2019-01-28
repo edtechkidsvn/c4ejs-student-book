@@ -9,6 +9,7 @@
 7. [Đối tượng (Object)](/object/object.md)
 8. [Hàm (Function) - Part 1](/function/function-part1.md)
 9. [Hàm (Function) - Part 2](/function/function-part2.md)
+10. [Hàm Calbacks(Callbacks Function)](/function/function-callback.md)
 10. HTML
 11. CSS
 12. DOM
