@@ -67,6 +67,6 @@ Gợi ý: https://www.w3schools.com/jsref/jsref_replace.asp
     "$80% percent of $life is to show $up".  
 
 2.  Sử dụng function để tối ưu đoạn code sau:
-    [](/exercise.md)
+    [Click here](/exercise.md)
 
-*Bài tiếp theo [Hàm Callbacks (CALLBACKS FUNCTION)](../function/function-callback.md)*
+*Bài tiếp theo [Hàm Promise (PROMISE FUNCTION)](../function/function-promise.md)*
