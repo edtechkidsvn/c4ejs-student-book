@@ -1,21 +1,26 @@
-let myPromise = new Promise(function(resolve, reject){
-    reject();
-})
+// function wait(ms) {
+//     return new Promise(r => setTimeout(r, ms))  
+//  }
+ 
+// async function main() {
+//     console.log('sắp rồi...')
+//     await wait(2007)
+//     console.log('chờ tí...')
+//     await wait(2012)
+//     console.log('thêm chút nữa thôi...')
+//     await wait(2016)
+//     console.log('xong rồi đấy!')
+// };
 
-myPromise
-    .then(
-        function(success) {
-            console.log("Success");
-            // code when Promise resolve
-        }, 
+// main();
+function wait(ms) {
+    return new Promise(r => setTimeout(r, ms))  
+}
 
-        function(error) {
-            console.log("Error")
-        // code when Promise reject
+async function main() {
+    console.log('ONE');
+    await wait(2000);
+    console.log('TWO');
+};
 
-        }
-    )
-    .catch(function(error) {
-        console.log("Catch Error")
-        // code when Promise reject, but doesn't work!
-    })
+main();

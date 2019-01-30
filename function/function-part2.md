@@ -69,4 +69,4 @@ Gợi ý: https://www.w3schools.com/jsref/jsref_replace.asp
 2.  Sử dụng function để tối ưu đoạn code sau:
     [Click here](/exercise.md)
 
-*Bài tiếp theo [Hàm Promise (PROMISE FUNCTION)](../function/function-promise.md)*
+*Bài tiếp theo [Async/Await](../function/function-async-await.md)*
