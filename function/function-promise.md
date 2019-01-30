@@ -105,6 +105,16 @@
 
 &rarr; 3 trạng thái trên của một **Promise** bạn không cần phải cố gắng ghi nhớ ngay, thực hành nhiều tự khắc bạn sẽ phân biệt được chúng.
 
+&rarr; Có một ví dụ như sau để bạn có thể có cái nhìn tổng quan hơn về 3 trạng thái trên của Promise:
+    
+-   Trước hết, đúng như tên gọi, **Promise** là **lời hứa**, khi **khởi tạo một Promise**, có thể coi là tôi hứa sẽ tặng bạn một món quà. (Nhớ là tôi chỉ hứa thôi nhé, tôi chưa tặng)
+
+-   Khi **sử dụng resolve**, nghĩa là lời hứa của tôi đã được thực hiện, và thành công, tôi tặng bạn quà rồi.
+
+-   Khi **sử dụng reject**, nghĩa là lời hứa của tôi đã được thực hiện, và thất bại, tôi không tặng bạn quà nữa.
+
+-   Vậy khi lời hứa của tôi được thực hiện (thành công hoặc thất bại), bạn sẽ xử lý chúng thế nào? Hãy đi tiếp xuống phần bên dưới để cùng tìm hiểu.
+
 ### II. THENABLE và CATCH
 **Thenable** và **Catch** là 2 đoạn lệnh xuất hiện cùng Promise, **chỉ có thể gọi được khi đã khai báo Promise**
 
