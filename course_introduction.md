@@ -53,7 +53,8 @@
 -   Để chạy dòng code JS vừa viết, bạn hãy tìm đến folder chứa file .html mà bạn tạo lúc đầu, sau đó sử dụng trình duyệt (browser) trên máy bạn để mở file .html (chrome, firefox, Cốc Cốc) bằng cách chuột phải vào file -> Open with -> chọn browser bạn muốn sử dụng, ở đây mình chọn Google Chrome
 
     *Khuyến cáo không sử dụng trình duyệt Internet Explorer (IE)*
-
+    
+    *Trước khi định chạy bất kỳ một đoạn code nào, bạn hãy ấn tổ hợp phím Ctrl+S để VSCode lưu lại nội dung code bạn vừa thay đổi*
     ![Create-HTML-7](images/intro/create-html-7.png) 
 
 
