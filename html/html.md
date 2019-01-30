@@ -134,10 +134,6 @@ HTML khá dễ để tiếp cận, nhưng để nắm được hết tất cả 
     
     &rarr; đoạn code trên đã cố tình làm cho link bức ảnh bị sai, bằng cách xóa đi phần `.jpg`, như vậy đoạn text trong **attribute alt** sẽ phát huy tác dụng.
 
-
-**5. Thẻ division**
--   **Thẻ division (thẻ div)** không thể hiện được tác dụng ngay như các loại thẻ ở trên. Đây là một thẻ được sử dụng để nhóm các thẻ khác lại. Khi nào 
-
 ### IV. BÀI TẬP
 
 Bạn hãy vào [đây](https://www.w3schools.com/html/exercise.asp) và làm lần lượt các bài tập trong các mục **Attributes**, **Headings**, **Paragraph**, **Link**, **Image**
