@@ -1,7 +1,10 @@
+## C4E JS - Student book
+
 ### IV. EVENTS
+**1. Giới thiệu**
 
--   Nếu để ý bạn sẽ thấy tất cả những thao tác tác động lên các thẻ HTML xảy ra ngay khi vừa reload lại trang web.
+-   Sự tương tác của người dùng đối với trang web bao gồm các hành động đến từ bàn phím và chuột, ví dụ như click chuột, di chuột, gõ phím, ...
 
-&rarr; Vậy tại sao không chỉnh sửa trực tiếp ngay ở file HTML, mà lại phải tốn công viết thêm code ở JavaScript?
+-   Tất cả những hành động như vậy được gọi là **Events**.
 
--   Trên thực tế, tất cả 
+-   
