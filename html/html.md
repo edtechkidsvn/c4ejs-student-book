@@ -6,14 +6,14 @@
 
 **2. Khái niệm**
 
--   **HTML** là chữ viết tắt của cụm từ **H**yper **T**ext **M**arkup **L**anguage.
+-   **HTML** là chữ viết tắt của cụm từ **H**yper **T**ext **M**arkup **L**anguage (Ngôn ngữ đánh dấu siêu văn bản).
 
 -   Tất cả những nội dung hiển thị trên một trang web bất kỳ, đều được thể hiện qua **HTML**.
 
 ### II. CÚ PHÁP
 Cách tạo một file html đã được nói trong chương đầu tiên của khóa học. Trong chương này chúng ta sẽ đi ngay vào các khái niệm cần thiết của HTML.
 
-**1. Thẻ (Tag)**
+**1. Thẻ (Tag hoặc Element)**
 -   Mỗi một nội dung bất kỳ được khai báo ra để hiển thị trên trang web đều được bọc trong một **cặp thẻ (tags)**.
 
 -   Một cặp thẻ được viết ra như sau:
@@ -138,7 +138,7 @@ HTML khá dễ để tiếp cận, nhưng để nắm được hết tất cả 
 
 Bạn hãy vào [đây](https://www.w3schools.com/html/exercise.asp) và làm lần lượt các bài tập trong các mục **Attributes**, **Headings**, **Paragraph**, **Link**, **Image**
 
-*Bài tiếp theo [DOM](../dom/dom.md)*
+*Bài tiếp theo [DOM Manipulations](../dom/dom-manipulations.md)*
 
 
 

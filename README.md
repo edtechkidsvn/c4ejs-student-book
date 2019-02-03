@@ -11,8 +11,9 @@
 9. [Hàm (Function) - Part 2](/function/function-part2.md)
 10. [Async/Await](/function/function-async-await.md)
 11. [HTML](/html/html.md)
-12. [DOM](/dom/dom.md)
-13. [Networking](/networking/networking.md)
-14. [CSS](/css/css.md)
+12. [DOM Manipulations](/dom/dom-manipulations.md)
+13. [DOM Events](/dom/dom-events.md)
+14. [Networking](/networking/networking.md)
+15. [CSS](/css/css.md)
 <!-- 10. [Hàm Promise(Promise Function)](/function/function-promise.md) -->
 <!-- 10. [Hàm Calbacks(Callbacks Function)](/function/function-callback.md) -->
