@@ -141,6 +141,10 @@ Có 3 cách để lấy ra một thẻ HTML:
 
 ***Nhận xét:*** Khi đã lấy được ra một thẻ html ở javascript rồi thì bạn có thể tùy ý thay đổi bất cứ thứ gì của thẻ đó, tùy thuộc vào property mà bạn gọi ra.
 
+***Bài tập***
+-   Hãy tạo ra một thẻ a, với đường dẫn đến trang Google.
+-   Tiến hành thay đổi đường dẫn của thẻ a dẫn đến trang Facebook bằng JS.
+
 **2. Thêm một thẻ mới**
 -   Chúng ta sẽ thử thêm 1 thẻ html vào file html mà không cần phải tạo ra nó từ trước ở file html. Cụ thể ở ví dụ này chúng ta sẽ thêm một `thẻ h2` vào trong `thẻ body`, sau khi thêm thì `thẻ h2` sẽ nằm cùng bậc với `thẻ h1`.
 
@@ -172,6 +176,10 @@ Có 3 cách để lấy ra một thẻ HTML:
 
     ![DOM-7](../images/dom/dom-7.png) 
 
+***Bài tập***
+-   Tìm hiểu về thẻ ul và thẻ li trong HTML.
+-   Tiến hành thêm vào trang web danh sách tên các cầu thủ Ronaldo, Messi, Neymar.
+
 **3. Xóa một thẻ đã có**
 -   Ở file html, chúng ta có hai thẻ h1 và h2 với các id tương ứng như sau:
     ```html
@@ -195,6 +203,8 @@ Có 3 cách để lấy ra một thẻ HTML:
 
     ![DOM-8](../images/dom/dom-8.png) 
 
+***Bài tập***
+-   Tiến hành xóa đi tên của cầu thủ Neymar trong danh sách các cầu thủ đã hiển thị ở phần 2.
 
 ***Tổng kết:***
 
