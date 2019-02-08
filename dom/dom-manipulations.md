@@ -7,7 +7,9 @@
 
 -   Sau khi học qua hết 1 lượt các khái niệm cơ bản trong JS, chúng ta chuyển qua học HTML và hiển thị được một vài nội dung trên trang web.
 
-&rarr; JS tác động đến trang web, hay cụ thể là HTML như thế nào? **DOM** được sinh ra để giúp JS làm điều này.
+&rarr; Chúng ta chưa hề nhìn thấy được JavaScript có thể làm được gì đối với những nội dung hiển thị trên trang web. JavaScript có thể tác động như thế nào tới các thẻ HTML có sẵn từ file HTML gốc?
+
+&rarr; **DOM** được sinh ra để giúp JS làm điều này. Sau khi học hết chương này, bạn sẽ thấy **đã sử dụng JavaScript là không thể không nhắc đến DOM**. 
 
 **2. Khái niệm**
 -   **DOM** là viết tắt của **D**ocument **O**bject **M**odel.
