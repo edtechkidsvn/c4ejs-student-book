@@ -84,7 +84,7 @@
         ```
     -   Đến đây là chúng ta đã hoàn thành xong việc lấy dữ liệu từ một API bất kỳ, kết quả như sau:
 
-        ![Networking-1](../images/networking/networking-1.PNG)
+        ![Networking-1](../images/networking/networking-1.png)
 
     -   Dữ liệu này hoàn toàn trùng khớp với dữ liệu khi bạn truy cập trực tiếp vào link API trên.
 
@@ -104,6 +104,6 @@
     }
 ```
 -   Kết quả sau khi thực hiện thành công sẽ như sau:
-    ![Networking-2](../images/networking/networking-2.PNG)
+    ![Networking-2](../images/networking/networking-2.png)
 
 -   ***Gợi ý***: Chỉ thực hiện thay đổi function fetch()
