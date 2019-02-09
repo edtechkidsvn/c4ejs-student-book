@@ -52,47 +52,36 @@
         
         (khóa học này không tập trung quá nhiều vào định nghĩa API, mà chỉ tập trung vào cách làm việc với nó, nên bạn có thể tạm hiểu API là một link chứa dữ liệu. Bạn có thể tìm kiếm các link API chứa data có sẵn trên mạng)
 
-    -   Sử dụng function **fetch()** có sẵn của JavaScript để **GET** dữ liệu từ API trên và lưu vào biến **response**, sau đó **return response** như sau:
+    -   Sử dụng function **fetch()** có sẵn của JavaScript để **GET** dữ liệu từ API trên và lưu vào biến **response**, sau đó in ra **response** như sau:
 
         ```js
         function myFunction() {
             const response = fetch('https://reqres.in/api/users');
-            return response;
+
+            console.log(response);
         }       
         ```
 
-    -   Vì JavaScript hoạt động bất đồng bộ, nên để đảm bảo function **fetch()** hoàn thành xong nhiệm vụ của nó trước khi **return**, chúng ta sử dụng **async/await**:
+    -   Vì JavaScript hoạt động bất đồng bộ, nên để đảm bảo function **fetch()** hoàn thành xong nhiệm vụ của nó trước khi in ra màn hình, chúng ta sử dụng **async/await**:
 
         ```js
         async function myFunction() {
             const response = await fetch('https://reqres.in/api/users');
 
-            return response.json();
+            console.log(await response.json());
         } 
         ```
 
-    -   Ở dòng return có thêm **.json()**, thì bạn có thể hiểu đây là cú pháp để lấy ra được dữ liệu thực sự của API trên.
+    -   Ở dòng in ra màn hình có thêm **.json()** và **await** đằng trước, thì bạn có thể hiểu như sau:
+        -   **await** để đảm bảo dòng lệnh in ra chỉ được thực hiện khi **fetch dữ liệu thành công**.
+        
+        -   **.json()** để lấy ra được dữ liệu thực sự có trong API.
 
-    -   Như vậy là function **myFunction()** đã được hoàn thành. Bây giờ chúng ta sẽ tiến hành sử dụng **myFucntion()** như sau:
+    -   Như vậy là function **myFunction()** đã được hoàn thành. Bây giờ chúng ta chỉ việc gọi **myFunction()**:
 
-    ```js
-        const result = myFunction();
-    ```
-
-    -   Ở đoạn code trên, biến result được tạo ra để chứa kết quả của **myFunction()**.
-
-    -   Async/Await vốn được **xây dựng dựa trên Promise**, vì vậy nên khi khai báo 1 function có sử dụng async/await, kết quả return của nó sẽ **trả về một Promise**.
-
-    -   Vì lý do trên nên để hiển thị ra được dữ liệu, chúng ta cần phải tuân theo cú pháp của Promise, cụ thể là sử dụng **.then()**, bên trong hoàn toàn là cú pháp của Promise.
-
-    ```js
-        const result = myFunction();
-
-        result.then(function(data){
-            console.log(data);
-        });
-    ```
-
+        ```js
+            myFunction();
+        ```
     -   Đến đây là chúng ta đã hoàn thành xong việc lấy dữ liệu từ một API bất kỳ, kết quả như sau:
 
         ![Networking-1](../images/networking/networking-1.PNG)

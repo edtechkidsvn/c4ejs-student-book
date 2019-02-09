@@ -10,6 +10,7 @@
 8. [Hàm (Function) - Part 1](/function/function-part1.md)
 9. [Hàm (Function) - Part 2](/function/function-part2.md)
 10. [Async/Await](/function/function-async-await.md)
+10. [Async/Await](/function/function-async-await.md)
 11. [HTML](/html/html.md)
 12. [DOM Manipulations](/dom/dom-manipulations.md)
 13. [DOM Events](/dom/dom-events.md)
