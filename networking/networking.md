@@ -107,3 +107,5 @@
     ![Networking-2](../images/networking/networking-2.png)
 
 -   ***Gợi ý***: Chỉ thực hiện thay đổi function fetch()
+
+*Bài tiếp theo [CSS](../css/css.md)*
