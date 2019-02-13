@@ -9,39 +9,42 @@
     -   **Client** hiểu đơn giản là trình duyệt web của bạn.
     -   **Server** có thể hiểu là một chiếc máy tính lớn với cấu hình đặc biệt để có thể lưu trữ và vận hành tốt toàn bộ dữ liệu của trang web.
 
--   Trong khóa học này, chúng ta sẽ sử dụng JavaScript để phát triển trang web từ phía **Client** trước. Với vai trò là một người lập trình để phát triển trang web, tất cả những thao tác, xử lý vượt ra khỏi phạm vi máy tính (Browser hoặc Client) của bạn, được gọi chung là **Networking**.
+-   Trong khóa học này, chúng ta sẽ sử dụng JavaScript để phát triển trang web từ phía **Client** trước. Với vai trò là một người lập trình để phát triển trang web, tất cả những thao tác, xử lý có sử dụng internet vượt ra khỏi phạm vi máy tính (Browser hoặc Client) của bạn, được gọi chung là **Networking**.
 
-### II. CÁC GIAO THỨC CƠ BẢN
+### II. VÍ DỤ THỰC TẾ
 
 -   Về cơ bản thì **Client** và **Server** sẽ giao tiếp với nhau thông qua **các giao thức (HTTP methods)**, trong chương này chúng ta sẽ làm quen với một trong các giao thức được sử dụng nhiều nhất là **GET**
 
 -   Để có một cái nhìn tổng quát, chúng ta sẽ sử dụng ví dụ chung sau đây:
 
-    -   Giả sử bạn đi đến ngân hàng, gặp nhân viên ngân hàng với mong muốn lập tài khoản để gửi tiết kiệm. Lúc này sẽ xuất hiện cuộc trò chuyện giữa bạn và nhân viên.
+    -   Giả sử bạn đang đói và quyết định đi đến cửa hàng bành mỳ để mua bánh mỳ. Lúc này sẽ xuất hiện cuộc trò chuyện giữa bạn và cô bán bánh mỳ (cô này tên là Mrs.Bread).
 
-    -   Bạn sẽ đóng vai trò là **Client**, nhân viên là **Server**.
+    -   Bạn sẽ đóng vai trò là **Client**, Mrs.Bread là **Server**.
 
-    -   Quy trình gửi tiết kiệm như sau:
+    -   Quy trình mua bánh mỳ như sau:
 
-        ***B1***: Bạn nhận tờ khai thông tin cá nhân từ nhân viên (form).
+        ***B1***: Bạn yêu cầu Mrs.Bread đưa cho bạn loại bánh mỳ ngon nhất.
 
-        ***B2***: Bạn điền thông tin cá nhân vào form và đưa lại cho nhân viên.
+        ***B2***: Bạn nhận bánh mỳ từ Mrs.Bread.
 
-    -   Ở **B1**:
-        -   Hãy tưởng tượng ban đầu nhân viên gặp bạn và không nói gì, thì bạn sẽ phải yêu cầu nhân viên đưa form cho bạn. 
+    -   Sau khi Mrs.Bread đưa bánh ra ra và bạn cầm lấy bánh trên tay rồi, tức là bạn đã **lấy** (**GET**) bánh mỳ từ Mrs.Bread thành công.
 
-        -   Sau khi nhân viên đưa form ra và bạn cầm lấy form trên tay rồi, tức là bạn đã **lấy** (**GET**) một cái form từ nhân viên thành công.
+-   Ở ví dụ trên, coi bánh mỳ bạn nhận được là **dữ liệu**.
 
 -   Đối chiếu với ví dụ trên, **GET** bao gồm 2 bước:
-    -   Gửi yêu cầu
-    -   Nhận về form
+    -   Gửi yêu cầu **GET**
+    -   Nhận dữ liệu
 
--   Bạn chỉ cần quan tâm đến bước đầu tiên, tức là làm sao để có thể gửi yêu cầu, hay nói cách khác là thực hiện **GET** thôi. Còn bước sau là hệ quả sau khi bước một thành công.
+-   Bạn chỉ cần quan tâm đến bước đầu tiên, tức là làm sao để có thể **gửi yêu cầu GET** (**send GET request**). Còn **nhận dữ liệu** là hệ quả sau khi việc **GET request** được thực hiện thành công.
 
--   Cú pháp như sau:
-    -   Tạo một function tên là myFunction
+### III. CÚ PHÁP
+
+-   Trong phần này, chúng ta sẽ thử thực hiện một **GET request** tới một **server** có sẵn (server này chứa thông tin của một vài user nào đó), mục đích cuối cùng sẽ là lấy về được thông tin của các user này.
+
+-   Cú pháp thực hiện việc gửi **GET request** như sau:
+    -   Tạo một function tên là getUsers
         ```js
-        function myFunction(){
+        function getUsers(){
             
         }
         ```
@@ -55,17 +58,17 @@
     -   Sử dụng function **fetch()** có sẵn của JavaScript để **GET** dữ liệu từ API trên và lưu vào biến **response**, sau đó in ra **response** như sau:
 
         ```js
-        function myFunction() {
+        function getUsers() {
             const response = fetch('https://reqres.in/api/users');
 
             console.log(response);
         }       
         ```
 
-    -   Vì JavaScript hoạt động bất đồng bộ, nên để đảm bảo function **fetch()** hoàn thành xong nhiệm vụ của nó trước khi in ra màn hình, chúng ta sử dụng **async/await**:
+    -   Tiếp theo, để đảm bảo function **fetch()** hoàn thành xong nhiệm vụ của nó trước khi in ra màn hình, chúng ta sử dụng **async/await**:
 
         ```js
-        async function myFunction() {
+        async function getUsers() {
             const response = await fetch('https://reqres.in/api/users');
 
             console.log(await response.json());
@@ -77,10 +80,10 @@
         
         -   **.json()** để lấy ra được dữ liệu thực sự có trong API.
 
-    -   Như vậy là function **myFunction()** đã được hoàn thành. Bây giờ chúng ta chỉ việc gọi **myFunction()**:
+    -   Như vậy là function **getUsers()** đã được hoàn thành. Bây giờ chúng ta chỉ việc gọi **getUsers()**:
 
         ```js
-            myFunction();
+            getUsers();
         ```
     -   Đến đây là chúng ta đã hoàn thành xong việc lấy dữ liệu từ một API bất kỳ, kết quả như sau:
 
@@ -88,12 +91,15 @@
 
     -   Dữ liệu này hoàn toàn trùng khớp với dữ liệu khi bạn truy cập trực tiếp vào link API trên.
 
-***Bài tập***
--   Bên cạnh **GET** thì **POST** cũng là một method được sử dụng thường xuyên trong quá trình phát triển web. Để có thể hình dung được method **POST**, bạn hãy quay lại một chút với ví dụ gửi tiết kiệm ở gần đầu chương:
+### IV. BÀI TẬP
 
-    -   Ở **B2**, bạn điền thông tin cá nhân vào form và đưa lại cho nhân viên.
+-   Bên cạnh **GET** thì **POST** cũng là một method được sử dụng thường xuyên trong quá trình phát triển web. Để có thể hình dung được method **POST**, hãy cùng tiếp tục với ví dụ ở phần II:
 
-    -   Nói cách khác, bạn đang **gửi** (**POST**) cho nhân viên cái form chứa đầy đủ thông tin cần thiết.
+    -   Sau khi nhận bánh mỳ từ Mrs.Bread, bạn **đồng ý mua**.
+
+    -   **Đồng ý mua** cũng có nghĩa là bạn sẽ phải đưa lại cho Mrs.Bread một số tiền.
+
+    -   Nói cách khác, bạn đang **gửi** (**POST**) cho Mrs.Bread một số tiền tương ứng với chiếc bánh mỳ.
 
 &rarr; Tìm hiểu và thực hiện **POST** dữ liệu có dạng như sau lên API `https://reqres.in/api/users`.
 
