@@ -114,4 +114,4 @@
 
 -   ***Gợi ý***: Chỉ thực hiện thay đổi function fetch()
 
-*Bài tiếp theo [CSS](../css/css.md)*
+*Bài tiếp theo [CSS - Part 1](../css/css-part1.md)*

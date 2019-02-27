@@ -1,0 +1,16 @@
+#flex-box-demo {
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.flex-items {
+    background-color: lightgreen;
+    width: 100px;
+    margin: 10px;
+}

@@ -8,10 +8,10 @@
 
 -   **JavaScript** cùng với 2 ngôn ngữ khác là **HTML** và **CSS**, đã tạo nên một "bộ ba" không thể thiếu trong bất kỳ một trang web nào ngày nay. Để có thể dễ hình dung, bạn có thể tưởng tượng như sau: Nếu **HTML** là một cô gái không mấy xinh đẹp, thì **CSS** sẽ giúp cô ấy trở nên xinh đẹp hơn, tuy nhiên lúc này cô gái không hề biết cử động, đây chính là lúc cần tới **JavaScript**(), JS sẽ giúp cô gái trở nên sống động hơn, có hồn, trở thành một cô gái hoàn hảo.
 
-- Cô gái có thể không cần quá xinh đẹp, nhưng phải biết cử động. Nói như vậy để các bạn thấy rằng, muốn có **JavaScript**, trước hết chúng ta phải có **HTML**.
+- Cô gái có thể không cần quá xinh đẹp, nhưng phải biết cử động. Trước khi có 1 cô gái biết cử động, chúng ta cần phải có cô gái trước đã. Nói như vậy để các bạn thấy rằng, muốn có **JavaScript**, trước hết chúng ta phải có **HTML**.
 
 **II. CÀI ĐẶT CÁC CÔNG CỤ CẦN THIẾT**
--   HTML, CSS, và JavaScript hiện nay đã rất phổ biến, xuất hiện trên 99.99% các trang web và trình duyệt hiện nay. Vì vậy tất cả những gì bạn cần làm chỉ là cài đặt một **code editor**, phục vụ cho việc viết code, là đã có thể bắt tay vào làm quen với code rồi.
+-   HTML, CSS, và JavaScript hiện nay đã rất phổ biến, xuất hiện trên 99.99% các trang web và trình duyệt hiện nay. Vì vậy nên tất cả các **code editor** hiện nay đều đã hỗ trợ sẵn 3 loại ngôn ngữ này, tất cả những gì bạn cần làm chỉ là cài đặt một **code editor** để phục vụ cho việc viết code, là đã có thể bắt tay vào làm quen với code rồi.
 
 -   Đề xuất: Các bạn có thể tải và cài đặt  Visual Studio Code (VS Code) [tại đây](https://code.visualstudio.com/)
 
@@ -47,10 +47,12 @@
 
 -   Để làm điều này, hãy viết câu lệnh "console.log("Hello World")" như trong hình, đây là câu lệnh để in ra dòng chữ "Hello World".  
 
+-   Dấu chấm phẩy ( ; ) không có ý nghĩa trong việc chạy code JavaScript, bạn có thể có hoặc không, code vẫn chạy bình thường. Tuy nhiên khi file code của bạn lớn dần lên thì dấu chấm phẩy là rất cần thiết, góp phần giúp cho code trở nên sáng sủa hơn rất nhiều.
+
     ![Create-HTML-6](images/intro/create-html-6.png) 
 
 
--   Để chạy dòng code JS vừa viết, bạn hãy tìm đến folder chứa file .html mà bạn tạo lúc đầu, sau đó sử dụng trình duyệt (browser) trên máy bạn để mở file .html (chrome, firefox, Cốc Cốc) bằng cách chuột phải vào file -> Open with -> chọn browser bạn muốn sử dụng, ở đây mình chọn Google Chrome
+-   Để chạy dòng code JS vừa viết, bạn hãy tìm đến folder chứa file .html mà bạn tạo lúc đầu, sau đó sử dụng trình duyệt (browser) trên máy bạn để mở file .html (chrome, firefox, Cốc Cốc, Safari) bằng cách chuột phải vào file -> Open with -> chọn browser bạn muốn sử dụng, ở đây mình chọn Google Chrome
 
     *Khuyến cáo không sử dụng trình duyệt Internet Explorer (IE)*
     
@@ -58,7 +60,7 @@
     ![Create-HTML-7](images/intro/create-html-7.png) 
 
 
--   Một cửa sổ trên browser hiện ra, bạn click chuột phải vào bất kỳ chỗ nào trong phạm vi của trang, chọn "Kiểm tra" (Inspect), sau đó chuyển sang tab "Console"
+-   Một cửa sổ trên browser hiện ra, bạn click chuột phải vào bất kỳ chỗ nào trong phạm vi của trang, chọn "Kiểm tra" (Inspect hoặc Inspect Element), sau đó chuyển sang tab "Console" (Dòng chữ Inspect và vị trí của tab Console có thể khác nhau trên những browser khác nhau).
 
     ![Create-HTML-8](images/intro/create-html-8.png) 
 

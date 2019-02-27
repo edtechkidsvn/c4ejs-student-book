@@ -136,7 +136,9 @@ HTML khá dễ để tiếp cận, nhưng để nắm được hết tất cả 
 
 ### IV. BÀI TẬP
 
-Bạn hãy vào [đây](https://www.w3schools.com/html/exercise.asp) và làm lần lượt các bài tập trong các mục **Attributes**, **Headings**, **Paragraph**, **Link**, **Image**
+1.  Bạn hãy vào [đây](https://www.w3schools.com/html/exercise.asp) và làm lần lượt các bài tập trong các mục **Attributes**, **Headings**, **Paragraph**, **Link**, **Image**
+
+2.  Bạn hãy tải file [này](https://drive.google.com/file/d/1kBsNjZB4eX7AkJc2TufI_pOymdK_Xmb5/view) về, mở file `Article-HTML-Only.pdf` ở trong "to-student". Nhiệm vụ của bạn là sử dụng HTML để tạo ra một trang giống như vậy. Bên cạnh file `Article-HTML-Only.pdf`, bạn sẽ tìm thấy những tấm ảnh cần thiết để hoàn thành theo mẫu.
 
 *Bài tiếp theo [DOM Manipulations](../dom/dom-manipulations.md)*
 

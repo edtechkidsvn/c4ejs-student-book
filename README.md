@@ -14,6 +14,7 @@
 12. [DOM Manipulations](/dom/dom-manipulations.md)
 13. [DOM Events](/dom/dom-events.md)
 14. [Networking](/networking/networking.md)
-15. [CSS](/css/css.md)
+15. [CSS - Part 1](/css/css-part1.md)
+15. [CSS - Part 2](/css/css-part2.md)
 <!-- 10. [Hàm Promise(Promise Function)](/function/function-promise.md) -->
 <!-- 10. [Hàm Calbacks(Callbacks Function)](/function/function-callback.md) -->
