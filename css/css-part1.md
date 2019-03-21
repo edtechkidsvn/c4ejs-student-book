@@ -89,7 +89,9 @@
 &rarr; Cũng giống như HTML, CSS rất dễ để tiếp cận và sử dụng, nhưng nắm được hết tất cả các tính năng và công dụng của CSS thì đòi hỏi bạn phải trải qua một quá trình làm việc lâu dài với CSS.
 
 ### III. SELECTOR BY CLASS, SELECTOR BY ID
--   Ở ví dụ trên, phần **selector** được viết dưới dạng tên thẻ. Ngoài dạng trên, **selector** còn rất nhiều dạng khác, trong chương này sẽ chỉ giới thiệu thêm 2 dạng phổ biến nhất của `selector`, đó là viết selector theo **class** và **id**.
+-   Ở ví dụ trên, phần **selector** được viết dưới dạng tên thẻ **(selector by tag name)**. Ngoài dạng trên, **selector** còn rất nhiều dạng khác, trong chương này sẽ chỉ giới thiệu thêm 2 dạng phổ biến nhất của `selector`, đó là viết selector theo **class** và **id** (**selector by class** và **selector by id**).
+
+-   **selector by tag name** thường ít được sử dụng hơn rất nhiều so với **selector by class** và **selector by id**, lý do là vì trong một trang html, một loại thẻ html có thể được sử dụng rất nhiều lần ở nhiều chỗ khác nhau, nên nếu chỉ sử dụng tên thẻ thì sẽ không thể quản lý hết các thẻ html có trong trang web. Vì vậy người ta thường gán cho chúng các attribute như **class** hay **id**, qua đó sử dụng **selector** thông qua những attribute này.
 
 **1. Selector by Class**
 -   `selector` viết dưới dạng class thường được sử dụng với mục đích **tái sử dụng**. Cách làm như sau:

@@ -51,9 +51,11 @@
             background-color: lightgreen;
             width: 100px;
             height: 100px;
+            margin: 10px;
         }
     ```
--   Với các declaration như trên, chúng ta đang mong muốn những thẻ nào sở hữu class này sẽ có màu nền là màu lightgreen `(background-color: lightgreen)`, có độ dài là 100 `(width: 100px)` và chiều rộng cũng là 100 `(height: 100px)`
+-   Với các declaration như trên, chúng ta đang mong muốn những thẻ nào sở hữu class này sẽ có màu nền là màu lightgreen `(background-color: lightgreen)`, có độ dài là 100 pixel `(width: 100px)` và chiều rộng cũng là 100 pixel `(height: 100px)`. 
+-   Ngoài ra, để làm cho các hộp không bị dính sát nhau bằng cách thêm declaration `margin: 10px`. Property `margin` cho một phần tử được sử dụng để điều chỉnh khoảng cách giữa phần tử đó với các phần tử xung quanh **trong cùng bậc**. Bạn có thể tìm hiểu thêm về property margin tại [đây](https://www.w3schools.com/css/css_margin.asp).
 
 -   Áp dụng class `flex-items` với 5 thẻ div nhỏ bên trong và được kết quả như sau:
     ```html
@@ -66,17 +68,6 @@
         </div>
     ```
 
-    ![Flex-3](../images/css/flexbox-3.png)
-
--   Chúng ta sẽ thêm một bước phụ nữa để làm cho các hộp không bị dính sát nhau bằng cách thêm declaration `margin: 10px`. Property `margin` cho một phần tử được sử dụng để điều chỉnh khoảng cách giữa phần tử đó với các phần tử xung quanh **trong cùng bậc**. Bạn có thể tìm hiểu thêm về property margin tại [đây](https://www.w3schools.com/css/css_margin.asp). Chúng ta được kết quả như sau :
-    ```css
-        .flex-items {
-            background-color: lightgreen;
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-        }
-    ```
     ![Flex-4](../images/css/flexbox-4.png)
 
 -   Bước cuối cùng trong phần cài đặt, đó là bạn phải chỉ định thẻ `<div id="flex-box"></div>` là một **flexbox** bằng cách sử dụng property `display` với value là `flex` như sau:
