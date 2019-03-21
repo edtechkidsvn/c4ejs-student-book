@@ -3,7 +3,11 @@
 ### VI. CSS FLEXIBLE BOX?
 **1. Giới thiệu**
 
--   Bản chất cả trang web của bạn là một "chiếc hộp"(box) lớn, bên trong chứa rất nhiều các phần tử nhỏ, mỗi phần tử nhỏ đó lại là những box nhỏ hơn.
+-   Bản chất cả trang web của bạn là một "chiếc hộp"(box) lớn, bên trong chứa rất nhiều các phần tử nhỏ, mỗi phần tử nhỏ đó lại là những box nhỏ hơn:
+
+    ![Flex-0](../images/css/flexbox-0.png)
+
+-   Hình trên là một phần của trang **facebook.com**, đường viền màu xanh là cả một box lớn chứa toàn bộ nội dung bên trong. Bên trong nó là những box nhỏ hơn màu đỏ, đại diện cho từng phần nội dung bên trong.
 
 -   Khi muốn sắp xếp, phân chi bố cục của trang web, thực chất là bạn đang làm việc với từng box, đó có thể là box nằm ngang, box dựng thẳng đứng,...
 
