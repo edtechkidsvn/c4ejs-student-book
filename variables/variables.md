@@ -90,8 +90,8 @@ Một đoạn code viết ra với những tên biến mang ý nghĩa rõ ràng,
 
     2.  Những cách khai báo biến nào sau đây hợp lệ:  
         ``` javascript
-            var break;
-            let Break;
+            let break;
+            var Break;
             let year-of-birth;
             const MYFAVORITE;
             const tech_kids;
@@ -149,7 +149,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
     ``` javascript
         const theBestSchool = "TechKids";
         let mySport = "Football";
-        var myPhoneNumber = "0123456789";
+        let myPhoneNumber = "0123456789";
     ```
 
 -   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là <i>undefined</i>
@@ -157,7 +157,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
     ``` javascript
         const theBestSchool;
         let mySport;
-        var myPhoneNumber;
+        let myPhoneNumber;
     ```
 
 *Bài tiếp theo [Kiểu dữ liệu (Data types)](../data_types/data_types.md)*
