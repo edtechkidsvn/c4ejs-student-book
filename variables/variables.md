@@ -144,7 +144,9 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
 
 ### III. CÁC KHÁI NIỆM KHÁC
 **1. Declaring variables và Evaluating variables**
--   **Declaring variables**: Hiểu một cách đơn giản thì đây là những biến được khai báo và được gán một giá trị nào đó.
+-   **Declaring variables**: Việc lập trình viên lần đầu tiên viết ra một biến để dùng về sau như `let x = 20` ở trên được gọi là **Khai báo biến**, tiếng anh là **Declaring variables**.
+
+Hiểu một cách đơn giản thì đây là chúng ta đang *báo* cho JavaScript nhớ rằng *có 1 biến*, *tên là x*, *có giá trị là 20*, từ giờ trở đi, khi gọi đến `x`, ví dụ `console.log(x)` hay `x = 34` thì với `x` mà ta đã dặn JavaScript ghi nhớ từ trước **tính là một**
 
     ``` javascript
         const theBestSchool = "TechKids";
@@ -152,7 +154,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
         let myPhoneNumber = "0123456789";
     ```
 
--   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là <i>undefined</i>
+-   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là `undefined`
 
     ``` javascript
         const theBestSchool;
