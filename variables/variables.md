@@ -160,23 +160,4 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
         var myPhoneNumber;
     ```
 
-**2. Hoisting Variable**
-
-Cùng quan sát 2 đoạn code dưới đây:  
-
--   Code 1  
-    ``` javascript
-        console.log(x); // x == undefined;
-        var x = 5;
-    ```
-
--   Code 2  
-    ``` javascript
-        var x;
-        console.log(x); // x == undefined;
-        x = 5;
-    ```
-
-Việc JavaScript tự động ngầm chuyển đoạn code 1 sang đoạn code 2 rồi mới thực thi lệnh được gọi là **Hoisting**. JavaScript sẽ đưa việc khai báo biến lên trên cùng, việc gán giá trị vẫn giữ nguyên. Điều này giải thích tại sao khi truy cập biến x ở ảnh 1 trước khi x được khai báo, nhưng chương trình lại không báo lỗi, mà chỉ trả ra giá trị mặc định của x.  
-
 *Bài tiếp theo [Kiểu dữ liệu (Data types)](../data_types/data_types.md)*
