@@ -154,12 +154,13 @@ Hiểu một cách đơn giản thì đây là chúng ta đang *báo* cho JavaSc
         let myPhoneNumber = "0123456789";
     ```
 
--   **Evaluating variables**: Những biến được khai báo nhưng không gán giá trị. Giá trị mặc định của những biến này là `undefined`
+-   **Evaluating variables**: Cách khai báo biến ở mà có sẵn giá trị như ở trên không phải là cách duy nhất để sinh ra một biến, trong thực tế sẽ có những lúc lập trình viên tại thời điểm khai báo biến không biết được giá trị đó là bao nhiêu, trong những trường hợp như vậy giá trị của biến có thể được để trống như dưới.
 
     ``` javascript
         const theBestSchool;
         let mySport;
         let myPhoneNumber;
     ```
+Những biến được khai báo nhưng không gán giá trị như trên sẽ mặc định được JavaScript để giá trị là `undefined`
 
 *Bài tiếp theo [Kiểu dữ liệu (Data types)](../data_types/data_types.md)*
