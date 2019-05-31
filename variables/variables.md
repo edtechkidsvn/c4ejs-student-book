@@ -22,7 +22,9 @@ Trong ví dụ trên, **tips** được gọi là biến (variable).
 
 **2. Khái niệm**
 
--   Trong máy tính, biến là một vùng không gian trống trong RAM, dùng để lưu trữ giá trị (value). Nói cách khác, trong lập trình có thể coi biến như một cái hộp, bên trong nó chứa một value nào đó. 
+-   Trong máy tính, biến là một vùng không gian trống trong RAM, dùng để lưu trữ giá trị (value). Nói cách khác, trong lập trình có thể coi biến như một cái hộp, bên trong nó chứa một value nào đó.
+
+- Giá trị (value) nằm trong hộp không cố định mà có thể thay đổi tuỳ theo những yếu tố khác hoặc theo sự sắp đặt của bạn. Hôm nay trong hộp chứa giá trị a, ngày mai có thể chứa giá trị b, cũng giống như tiền tips của Đức lúc 8h-9h là 200k, nhưng lúc 9h-10 lại chỉ có 10k vậy.
 
 -   Tại một thời điểm, một biến chỉ có thể lưu trữ được một value.
 
