@@ -18,15 +18,22 @@
 
 -   Vậy tổng số tiền mà Đức nhận được mỗi giờ phụ thuộc vào số tiền tips mà Đức nhận được trong giờ đó.  
 
-Trong ví dụ trên, **tips** được gọi là biến (variable), một khái niệm nhập môn, quan trọng của lập trình
+Trong ví dụ trên, **tips** được gọi là **biến** (*biến* trong *biến đổi*), vì nó không có giá trị cố định; giá trị của nó thay đổi theo những yếu tố khác. Trái lại, số tiền 100k được gọi là hằng số vì giá trị của nó không thay đổi.
+
+Một số ví dụ khác về **biến** trong thực tế: thái độ của người yêu bạn ngày hôm nay (phụ thuộc vào độ quan tâm của bạn cho người ta trong vài ngày vừa rồi), hay số lượng hoa đào nở Tết này (phụ thuộc vào thời tiết ấm hay lạnh)
 
 **2. Khái niệm**
 
--   Trong máy tính, biến là một vùng không gian trống trong RAM, dùng để lưu trữ giá trị (value). Nói cách khác, trong lập trình có thể coi biến như một cái hộp, bên trong nó chứa một value nào đó.
+- Trong máy tính, biến là một vùng không gian trống trong RAM, dùng để lưu trữ giá trị (value). Nói cách khác, trong lập trình có thể coi biến như một cái hộp, bên trong nó chứa một value nào đó.
 
 - Giá trị (value) nằm trong hộp không cố định mà có thể thay đổi tuỳ theo những yếu tố khác hoặc theo sự sắp đặt của bạn. Hôm nay trong hộp chứa giá trị a, ngày mai có thể chứa giá trị b, cũng giống như tiền tips của Đức lúc 8h-9h là 200k, nhưng lúc 9h-10 lại chỉ có 10k vậy.
 
--   Tại một thời điểm, một biến chỉ có thể lưu trữ được một value.
+-   Tại một thời điểm, một biến chỉ có thể lưu trữ được một giá trị (value).
+
+- Trong lập trình, biến là một công cụ cực kỳ quan trọng vì có những chức năng không thay thế được như sau
+    - Chứa giá trị (value) có thể dùng đi dùng lại được, ở ví dụ mục 1, `tips` ngoài việc tính lương của Đức còn có thể được dùng để xem liệu khách hàng có hài lòng với dịch vụ của hàng không (lấy tips so sánh với 5, nếu lớn hơn được tính là hài lòng chẳng hạn)
+    -  Chứa giá trị có khả năng thay đổi trong tương lai, ví dụ tiền `tips` của Đức có thể sẽ còn 80% vào cuối ngày vì nhà hàng có quy định nộp lại 20% `tips`. Một ví dụ khác có thể kể đến như nhiệt độ từ đài khí tượng lúc đầu có thể là 25 độ C nhưng đến trưa có thể sẽ được cập nhật thành 30 độ.
+
 
 **3. Cú pháp**
 -   Một biến cần phải được khai báo trước khi sử dụng.  

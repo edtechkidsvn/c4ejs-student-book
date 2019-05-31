@@ -6,7 +6,7 @@
 
 -   Mỗi khi bạn nhìn thấy một trang web thực hiện nhiều điều thú vị hơn là chỉ hiển thị thông tin, ví dụ như đồng hồ đếm ngược, hiệu ứng 2D/3D, tương tác với các thanh menu trượt ngang, dọc, v.v.. thì bạn có thể chắc chắn rằng, trang web đó có sự tham gia của **JavaScript** (JS)
 
--   **JavaScript** cùng với 2 ngôn ngữ khác là **HTML** và **CSS**, đã tạo nên một "bộ ba" không thể thiếu trong bất kỳ một trang web nào ngày nay. Để có thể dễ hình dung, bạn có thể tưởng tượng như sau: Nếu **HTML** là một cô gái không mấy xinh đẹp, thì **CSS** sẽ giúp cô ấy trở nên xinh đẹp hơn, tuy nhiên lúc này cô gái không hề biết cử động, đây chính là lúc cần tới **JavaScript**(), JS sẽ giúp cô gái trở nên sống động hơn, có hồn, trở thành một cô gái hoàn hảo.
+-   **JavaScript** cùng với 2 ngôn ngữ khác là **HTML** và **CSS**, đã tạo nên một "bộ ba" không thể thiếu trong bất kỳ một trang web nào ngày nay. Để có thể dễ hình dung, bạn có thể tưởng tượng như sau: Nếu **HTML** là một cô gái không mấy xinh đẹp, thì **CSS** sẽ giúp cô ấy trở nên xinh đẹp hơn, tuy nhiên lúc này cô gái không hề biết cử động, không trả lời khi được hỏi, đây chính là lúc cần tới **JavaScript**(), JS sẽ giúp cô gái trở nên sống động hơn, có hồn, trở thành một cô gái hoàn hảo.
 
 - Cô gái có thể không cần quá xinh đẹp, nhưng phải biết cử động. Trước khi có 1 cô gái biết cử động, chúng ta cần phải có cô gái trước đã. Nói như vậy để các bạn thấy rằng, muốn có **JavaScript**, trước hết chúng ta phải có **HTML**.
 
@@ -72,5 +72,6 @@
 
     ***Bài tập***  
     Hãy tạo mới một file .html, trong đó sử dụng JavaScript, in ra màn hình console thông tin cá nhân, bao gồm tên, tuổi, địa chỉ, số điện thoại.
+    [Lời giải](excercise_solution.md)
 
 *Bài tiếp theo [Biến (Variables)](variables/variables.md)*
