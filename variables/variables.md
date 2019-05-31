@@ -35,7 +35,7 @@ Trong ví dụ trên, **tips** được gọi là biến (variable).
     let firstVariable;
     ```
 -   Ở câu lệnh trên:
-    -   "firstVariable" là tên biến, có thể đặt tùy ý, lưu ý là cần phải đặt tên biến có nghĩa và phải tuân thủ theo các quy tắc đặt tên. 
+    -   "firstVariable" là tên biến, có thể đặt tùy ý, lưu ý là cần phải tuân thủ theo các quy tắc đặt tên và nên đặt tên biến có ý nghĩa. Các quy tắc đặt tên biến sẽ được trình bày rõ hơn ở mục 4
 
     -   "let" là từ khóa (keyword) của javascript, sử dụng để khai báo một biến. Có 3 cách để khai báo một biến trong javascript, tương ứng với 3 keywords **var**, **let** và **const**. Chúng được gọi là **declarations of variables**.
 
@@ -154,7 +154,7 @@ Hiểu một cách đơn giản thì đây là chúng ta đang *báo* cho JavaSc
         let myPhoneNumber = "0123456789";
     ```
 
--   **Evaluating variables**: Cách khai báo biến ở mà có sẵn giá trị như ở trên không phải là cách duy nhất để sinh ra một biến, trong thực tế sẽ có những lúc lập trình viên tại thời điểm khai báo biến không biết được giá trị đó là bao nhiêu, trong những trường hợp như vậy giá trị của biến có thể được để trống như dưới.
+-   **Evaluating variables**: Cách khai báo biến ở mà có sẵn giá trị như ở trên không phải là cách duy nhất để sinh ra một biến, trong thực tế sẽ có những lúc lập trình viên, tại thời điểm khai báo biến, không biết được giá trị đó là bao nhiêu, trong những trường hợp như vậy giá trị của biến có thể được để trống như dưới.
 
     ``` javascript
         const theBestSchool;
