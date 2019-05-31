@@ -127,16 +127,16 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
     Trong ví dụ trên, chương trình sẽ báo lỗi "x is not defined", vì biến x được khai báo bởi **let** nằm bên trong cặp {} (**Scope**), trong khi câu lệnh console.log(x) lại nằm bên ngoài, vì vậy nên không thể in được x ra màn hình.
 
     <i>**Bài tập**</i>  
-    Giá trị của x là bao nhiêu sau khi chạy đoạn code dưới đây?
+    Giá trị của x, và y là bao nhiêu sau khi chạy đoạn code dưới đây?
     ``` javascript
         {
-            let y = 30;
+            let x = 30;
 
             {
-                let x = 20;
+                let y = 20;
             }
-
             console.log(x);
+            console.log(y);
         }
     ```  
     *[Đáp án](result-5.md)*  
@@ -146,7 +146,7 @@ Khi đã hình dung ra được **Scope**, chúng ta có thể dễ dàng nắm 
 **1. Declaring variables và Evaluating variables**
 -   **Declaring variables**: Việc lập trình viên lần đầu tiên viết ra một biến để dùng về sau như `let x = 20` ở trên được gọi là **Khai báo biến**, tiếng anh là **Declaring variables**.
 
-Hiểu một cách đơn giản thì đây là chúng ta đang *báo* cho JavaScript nhớ rằng *có 1 biến*, *tên là x*, *có giá trị là 20*, từ giờ trở đi, khi gọi đến `x`, ví dụ `console.log(x)` hay `x = 34` thì với `x` mà ta đã dặn JavaScript ghi nhớ từ trước **tính là một**
+Hiểu một cách đơn giản thì đây là chúng ta đang *báo* cho JavaScript nhớ rằng *có 1 biến*, *tên là x*, *có giá trị là 20*, từ giờ trở đi, khi gọi đến `x`, ví dụ `console.log(x)` hay `x = 34` thì chính là `x` mà ta đã dặn JavaScript ghi nhớ từ trước
 
     ``` javascript
         const theBestSchool = "TechKids";
