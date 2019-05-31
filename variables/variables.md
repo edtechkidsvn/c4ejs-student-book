@@ -18,7 +18,7 @@
 
 -   Vậy tổng số tiền mà Đức nhận được mỗi giờ phụ thuộc vào số tiền tips mà Đức nhận được trong giờ đó.  
 
-Trong ví dụ trên, **tips** được gọi là biến (variable).
+Trong ví dụ trên, **tips** được gọi là biến (variable), một khái niệm nhập môn, quan trọng của lập trình
 
 **2. Khái niệm**
 
