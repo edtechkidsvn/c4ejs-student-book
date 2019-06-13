@@ -21,27 +21,27 @@
 
 -   Giao diện của VS Code:  
 
-    ![Create-HTML-1](images/intro/create-html-1.png)  
+    ![Create-HTML-1](../images/intro/create-html-1.png)  
 
 -   Chọn "File" -> "Open Folder..." phía góc trên bên trái màn hình, sau đó chọn tới thư mục bạn muốn lưu code trên máy:  
 
-    ![Create-HTML-2](images/intro/create-html-2.png) 
+    ![Create-HTML-2](../images/intro/create-html-2.png) 
 
 -   Bấm chọn biểu tượng tạo file mới sau đó đặt tên với đuôi .html, ở đây mình đặt là "index.html". Nếu tạo file với đuôi đúng là .html, thì bên cạnh tên file sẽ xuất hiện biểu tượng hình kim cương (<>)
 
-    ![Create-HTML-3](images/intro/create-html-3.png) 
+    ![Create-HTML-3](../images/intro/create-html-3.png) 
 
 -   Sau khi tạo file, bạn click vào file để mở và bắt đầu thực hiện việc code. Gõ "html" để xuất hiện gợi ý như trong hình, sau đó chọn vào dòng "html:5" và ấn phím Enter, kết quả sẽ là một đoạn khung HTML được dựng sẵn. 
 
     ***Vì lý do HTML quá phổ biến hiện nay nên hầu hết các code editor đều đã xây dựng sẵn một bộ khung HTML nhằm giảm thiểu thời gian phải code, thứ mà bất kỳ lúc nào tạo ra file HTML bạn cũng sẽ đều phải gõ lại y hệt như vậy.***
     
-    ![Create-HTML-4](images/intro/create-html-4.png) 
+    ![Create-HTML-4](../images/intro/create-html-4.png) 
 
 -   Nếu bạn đang thắc mắc với những gì vừa hiện ra trên màn hình, **đừng lo lắng**, tất cả những thành phần của HTML sẽ được trình bày một cách cụ thể và chi tiết khi chúng ta bắt đầu học cách tương tác JS với HTML.  
 
 -   Hãy thêm đoạn code đang bôi đậm trong hình vào file HTML của bạn, bằng cách gõ "script" và bấm Enter 3 lần.
 
-    ![Create-HTML-5](images/intro/create-html-5.png) 
+    ![Create-HTML-5](../images/intro/create-html-5.png) 
 
 -   Hãy đưa con trỏ chuột vào dòng số 13, tất cả code JavaScript sẽ được viết ở đây (nằm giữa cặp "Script"). Chúng ta sẽ viết chương trình đầu tiên với JS, chương trình kinh điển mà bạn sẽ gặp mỗi khi học một ngôn ngữ lập trình bất kỳ, đó là in ra dòng chữ "Hello World".
 
@@ -49,7 +49,7 @@
 
 -   Dấu chấm phẩy ( ; ) không có ý nghĩa trong việc chạy code JavaScript, bạn có thể có hoặc không, code vẫn chạy bình thường. Tuy nhiên khi file code của bạn lớn dần lên thì dấu chấm phẩy là rất cần thiết, góp phần giúp cho code trở nên sáng sủa hơn rất nhiều.
 
-    ![Create-HTML-6](images/intro/create-html-6.png) 
+    ![Create-HTML-6](../images/intro/create-html-6.png) 
 
 
 -   Để chạy dòng code JS vừa viết, bạn hãy tìm đến folder chứa file .html mà bạn tạo lúc đầu, sau đó sử dụng trình duyệt (browser) trên máy bạn để mở file .html (chrome, firefox, Cốc Cốc, Safari) bằng cách chuột phải vào file -> Open with -> chọn browser bạn muốn sử dụng, ở đây mình chọn Google Chrome
@@ -57,15 +57,15 @@
     *Khuyến cáo không sử dụng trình duyệt Internet Explorer (IE)*
     
     *Trước khi định chạy bất kỳ một đoạn code nào, bạn hãy ấn tổ hợp phím Ctrl+S để VSCode lưu lại nội dung code bạn vừa thay đổi*
-    ![Create-HTML-7](images/intro/create-html-7.png) 
+    ![Create-HTML-7](../images/intro/create-html-7.png) 
 
 
 -   Một cửa sổ trên browser hiện ra, bạn click chuột phải vào bất kỳ chỗ nào trong phạm vi của trang, chọn "Kiểm tra" (Inspect hoặc Inspect Element), sau đó chuyển sang tab "Console" (Dòng chữ Inspect và vị trí của tab Console có thể khác nhau trên những browser khác nhau).
 
-    ![Create-HTML-8](images/intro/create-html-8.png) 
+    ![Create-HTML-8](../images/intro/create-html-8.png) 
 
 
-    ![Create-HTML-9](images/intro/create-html-9.png) 
+    ![Create-HTML-9](../images/intro/create-html-9.png) 
 
 
 -   Ngay phía dưới bạn sẽ thấy dòng chữ "Hello World" hiện ra, đó chính là kết quả của những gì bạn đã làm từ đầu tới giờ.
