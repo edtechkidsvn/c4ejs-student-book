@@ -173,4 +173,4 @@
 
 -   Bên cạnh việc trang trí, thay đổi màu sắc, CSS còn giúp cho người lập trình sắp xếp, phân chia bố cục của các thành phần trong HTML một cách khoa học và đẹp mắt. Một trong những tính năng mạnh mẽ nhất của CSS giúp cho người lập trình dễ dàng bố trí trang web của mình một cách hợp lý là **Flexible Box**. Ở phần sau chúng ta sẽ cùng đi tìm hiểu về tính năng này.
 
-*Bài tiếp theo [CSS - Part 2](../dom/dom-manipulations.md)*
+*Bài tiếp theo [CSS - Part 2](./css-part2.md)*
