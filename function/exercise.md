@@ -1,7 +1,8 @@
+``` javascript
 // Đoạn code dưới đây mô phỏng 1 chương trình gồm 2 phần:
 //  Phần 1:
 //  -   Cho người dùng nhập vào một chuỗi các số, ngăn cách nhau bởi dấu cách (space)
-//  -   In ra màn hình tổng các CHỮ SỐ trong chuỗi người dùng vừa nhập 
+//  -   In ra màn hình tổng các CHỮ SỐ trong chuỗi người dùng vừa nhập
 
 //  Phần 2:
 //  -   Cho người dùng nhập vào một đoạn text có chứa dấu cách
@@ -51,3 +52,4 @@ console.log(sentenceNoSpace);
 // Gợi ý:
 //  -   Viết một function nhận vào một parameter là một string bất kỳ
 //  -   Return ra một string không chứa dấu cách
+``` 
