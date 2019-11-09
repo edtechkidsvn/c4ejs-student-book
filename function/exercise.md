@@ -25,11 +25,13 @@ let inputNumbers = prompt("Enter your list number, separated by space:");
 for (let index = 0; index < inputNumbers.length; index++) {
   if (inputNumbers[index] !== " ") {
     number += inputNumbers[index];
-  } 
-}
-
-for (let index = 0; index < number.length; index++) {
-  listNumbers.push(parseInt(number[index]));
+  } else {
+    number = "";
+  }
+  
+  if (number !== "") {
+    listNumbers.push(parseInt(number));
+  }
 }
 
 // Phần code tìm giá trị lớn nhất
