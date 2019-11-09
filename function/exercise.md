@@ -1,8 +1,7 @@
-``` javascript
 // Đoạn code dưới đây mô phỏng 1 chương trình gồm 2 phần:
 //  Phần 1:
 //  -   Cho người dùng nhập vào một chuỗi các số, ngăn cách nhau bởi dấu cách (space)
-//  -   In ra màn hình số lớn nhất trong dãy số người dùng vừa nhập
+//  -   In ra màn hình tổng các CHỮ SỐ trong chuỗi người dùng vừa nhập 
 
 //  Phần 2:
 //  -   Cho người dùng nhập vào một đoạn text có chứa dấu cách
@@ -17,32 +16,24 @@
 //  không phải là kiểm tra input của người dùng, vậy nên bạn hãy tạm công nhận input của người dùng luôn đúng.
 
 // Part 1
-let listNumbers = [];
-let number = "";
+let numberNoSpace = "";
 
 let inputNumbers = prompt("Enter your list number, separated by space:");
 
 for (let index = 0; index < inputNumbers.length; index++) {
   if (inputNumbers[index] !== " ") {
-    number += inputNumbers[index];
-  } else {
-    number = "";
+    numberNoSpace += inputNumbers[index];
   }
+}
+
+let totalSingleNumber = 0;
+
+for (let index = 0; index < numberNoSpace.length; index++) {
+  totalSingleNumber += Number(numberNoSpace[index]);
   
-  if (number !== "") {
-    listNumbers.push(parseInt(number));
-  }
 }
 
-// Phần code tìm giá trị lớn nhất
-let maxNumber = -999999;
-for (let index = 0; index < listNumbers.length; index++) {
-    if (listNumbers[index] > maxNumber) {
-        maxNumber = listNumbers[index];
-    }
-}
-
-console.log(maxNumber);
+console.log(totalSingleNumber);
 
 
 // Part 2
@@ -60,4 +51,3 @@ console.log(sentenceNoSpace);
 // Gợi ý:
 //  -   Viết một function nhận vào một parameter là một string bất kỳ
 //  -   Return ra một string không chứa dấu cách
-``` 
